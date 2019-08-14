@@ -8,6 +8,9 @@ const HomePage = () => {
             Welcome to my Home Page
             <p>just started building the portfolio</p>
             <Btn text={'DOWNLOAD NOW'}/>
+            <Heading text={'Testing the heading component'} />
+            <Heading text={'Creating another heading'} />
+            <Heading text={'Creating a new heading'} />
             <Heading text={'Creating a heading'} />
         </div>
     )
