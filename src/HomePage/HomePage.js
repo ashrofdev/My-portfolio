@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import { Btn, Heading } from '../LittleComponents/LittleComponents';
+import { Btn, Heading, Logo } from '../LittleComponents/LittleComponents';
 
 const HomePage = () => {
     return (
@@ -12,6 +12,7 @@ const HomePage = () => {
             <Heading text={'Creating another heading'} />
             <Heading text={'Creating a new heading'} />
             <Heading text={'Creating a heading'} />
+            <Logo/>
         </div>
     )
 }
