@@ -1,12 +1,12 @@
 import React from 'react'
 import './home.css'
 import { Btn, Heading, Logo } from '../LittleComponents/LittleComponents';
+import Header from '../LargeComponents/Header';
 
 const HomePage = () => {
     return (
         <div className="home">
-            Welcome to my Home Page
-            <p>just started building the portfolio</p>
+            <Header/>
             <Btn text={'DOWNLOAD NOW'}/>
             <Heading text={'Testing the heading component'} />
             <Heading text={'Creating another heading'} />

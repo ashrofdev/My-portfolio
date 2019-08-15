@@ -1,5 +1,13 @@
+:root {
+  --color-primary: rgb(224, 223, 223);
+  --color-secondary: rgb(12, 12, 12);
+  --text-color: rgb(48, 47, 47);
+  --white: rgb(255, 255, 255);
+}
+
 html {
   font-size: 62.25%;
+  color: var(--text-color);
 }
 
 .App {
