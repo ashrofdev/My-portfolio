@@ -1,0 +1,4 @@
+.home {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 12rem)) minmax(2rem, 1fr);
+}
