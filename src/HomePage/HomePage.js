@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Header from '../LargeComponents/Header';
+import Header from '../LargeComponents/Header/Header';
 
 const HomePage = () => {
     return (
