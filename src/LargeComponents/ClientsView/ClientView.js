@@ -3,7 +3,7 @@ import './client.css'
 
 const ClientView = () => {
     return (
-        <div className="about">
+        <div className="client">
             clients view of my works
         </div>
     )
