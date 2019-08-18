@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
-import {Logo, Btn} from '../../LittleComponents/LittleComponents' 
+import {Logo, Btn} from '../../LittleComponents/LittleComponents'
+import 'font-awesome/css/font-awesome.min.css'
 
 const Header = () => {
     return (
@@ -21,6 +22,12 @@ const Header = () => {
                         <img src={require('./slider/man2.png')} />
                     </div>
                 </div>
+            </div>
+            <div className="socials">
+                <i className="fa fa-facebook"></i>
+                <i className="fa fa-twitter"></i>
+                <i className="fa fa-pinterest"></i>
+                <i className="fa fa-google"></i>
             </div>
         </div>
     )

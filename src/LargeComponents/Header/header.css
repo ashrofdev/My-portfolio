@@ -45,3 +45,18 @@
 .bottom button {
     margin-top: 2rem;
 }
+.socials {
+    grid-column: 10/-1;
+    justify-self: center;
+    align-self: flex-end;
+    margin-bottom: 5rem;
+}
+.socials .fa {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-right: 1rem;
+}
+.fa:hover {
+    color: black;
+    cursor: pointer;
+}
