@@ -27,11 +27,13 @@
     font-weight: 200;
     font-size: 3rem;
     margin: 0;
+    color: var(--color-secondary);
 }
 .text h1 {
     font-weight: 700;
     font-size: 5rem;
     margin: 0;
+    color: var(--color-secondary);
 }
 .img {
     width: 35%;
@@ -59,4 +61,7 @@
 .fa:hover {
     color: black;
     cursor: pointer;
+}
+.ani {
+    transition: all 1s;
 }
