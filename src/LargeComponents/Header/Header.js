@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import {Logo} from '../../LittleComponents/LittleComponents' 
+import {Logo, Btn} from '../../LittleComponents/LittleComponents' 
 
 const Header = () => {
     return (
@@ -15,6 +15,7 @@ const Header = () => {
                         <h2>HEY! THERE</h2>
                         <h1>I AM SMITH</h1>
                         <h2>A PROFESSIONAL DEVELOPER</h2>
+                        <Btn text={'HIRE ME'}/>
                     </div>
                     <div className="img">
                         <img src={require('./slider/man2.png')} />
