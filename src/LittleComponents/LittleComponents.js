@@ -16,7 +16,7 @@ export const Logo = () => {
     )
 }
 
-////// HWADER ANIMATION //////////
+////// HEADER ANIMATION //////////
 export let ani = 'DESIGNER'
 setInterval(() => {
     setTimeout(()=>{
