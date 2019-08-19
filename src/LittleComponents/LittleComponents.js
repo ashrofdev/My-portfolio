@@ -30,6 +30,7 @@ export const About = () => {
                  voluptates. Debitis quasi quas nostrum vitae inventore
                   architecto pariatur ex enim repellat aut.
                 </p>
+                <Btn text={'DOWNLOAD CV'} />
             </div>
             <div className="abilities">
                 meter
