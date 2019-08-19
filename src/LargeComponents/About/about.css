@@ -1,5 +1,6 @@
 .about {
     grid-column: 2/10;
+    padding: 5rem 0;
 }
 .about .top {
     text-align: center;

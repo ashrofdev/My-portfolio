@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import {Heading} from '../../LittleComponents/LittleComponents'
+import {Heading, About} from '../../LittleComponents/LittleComponents'
 
 const AboutMe = () => {
     return (
@@ -11,6 +11,7 @@ const AboutMe = () => {
                  adipisicing elit. Blanditiis dolor placeat et
                   quasi aperiam earum impedit quod ea iste totam.</p>
             </div>
+            <About/>
         </div>
     )
 }

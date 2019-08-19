@@ -16,6 +16,28 @@ export const Logo = () => {
     )
 }
 
+export const About = () => {
+    return (
+        <div className="details">
+            <div className="text">
+                <p>Lore Lorem ipsum dolor sit amet consectetur adipisicing elit.o 
+                Expedita, impedit voluptatibus, optio aliquam cumque exercitationem volupta
+                 quos iusto ea numquam porro? Vitae dolore eveniet animi quos saepe
+                  mollitia cumque.</p>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Excepturi ratione porro unde architecto, minima cupiditate aliquam magnam
+                 voluptates. Debitis quasi quas nostrum vitae inventore
+                  architecto pariatur ex enim repellat aut.
+                </p>
+            </div>
+            <div className="abilities">
+                meter
+            </div>
+        </div>
+    )
+}
+
 ////// HEADER ANIMATION //////////
 export let ani = 'DESIGNER'
 setInterval(() => {

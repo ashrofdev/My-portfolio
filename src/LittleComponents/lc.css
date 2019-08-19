@@ -17,3 +17,15 @@
     margin: 0;
     color: var(--color-secondary);
 }
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.details .text {
+    width: 50%;
+}
+.details .abilities {
+    width: 50%;
+    margin-left: 2rem;
+    background-color: red;
+}
