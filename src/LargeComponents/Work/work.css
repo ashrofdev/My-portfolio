@@ -1,3 +1,7 @@
 .work {
     grid-column: 2/10;
+    padding: 5rem 0;
+}
+.work p {
+    width: 45rem;
 }
