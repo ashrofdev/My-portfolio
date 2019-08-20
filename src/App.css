@@ -18,7 +18,8 @@ html {
 p {
   font-size: 1.5rem;
   color: var(--text-color);
-  font-weight: 100;
+  font-weight: 200;
+  margin-bottom: 2rem;
 }
 
 
