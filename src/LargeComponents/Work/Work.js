@@ -19,23 +19,23 @@ const Work = () => {
                 <li>SKETCH DESIGN</li>
             </ul>
             <div className="gallery">
-                <figure>
+                <figure className="fig1">
                     img
                     <img alt="" />
                 </figure>
-                <figure>
+                <figure className="fig2">
                     img
                     <img alt="" />
                 </figure>
-                <figure>
+                <figure className="fig3">
                     img
                     <img alt="" />
                 </figure>
-                <figure>
+                <figure className="fig4">
                     img
                     <img alt="" />
                 </figure>
-                <figure>
+                <figure className="fig5">
                     img
                     <img alt="" />
                 </figure>
