@@ -1,3 +1,39 @@
 .client {
     grid-column: 1/-1;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url(./testmonial/testmonial-slider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.client .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client .img {
+    width: 10rem;
+    margin: auto;
+}
+.person img {
+    border-radius: 50%;
+}
+.person p {
+    width: 40rem;
+    padding: 2rem 0 0 0;
+    font-style: italic;
+    line-height: 2rem;
+    color: rgb(180, 181, 182);
+}
+.person .name {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.person .job {
+    font-size: 1.3rem;
+    color: rgb(180, 181, 182);
 }
