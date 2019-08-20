@@ -11,6 +11,35 @@ const Work = () => {
             adipisicing elit. Sunt minus iste a quod neque fugit explicabo
              tempore pariatur repellat asperiores?
             </p>
+            <ul>
+                <li>ALL</li>
+                <li>UI&UX</li>
+                <li>WEB DESIGN</li>
+                <li>APP DESIGN</li>
+                <li>SKETCH DESIGN</li>
+            </ul>
+            <div className="gallery">
+                <figure>
+                    img
+                    <img alt="" />
+                </figure>
+                <figure>
+                    img
+                    <img alt="" />
+                </figure>
+                <figure>
+                    img
+                    <img alt="" />
+                </figure>
+                <figure>
+                    img
+                    <img alt="" />
+                </figure>
+                <figure>
+                    img
+                    <img alt="" />
+                </figure>
+            </div>
         </div>
     )
 }

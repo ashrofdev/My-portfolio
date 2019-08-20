@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import {Logo, Btn, ani} from '../../LittleComponents/LittleComponents'
+import {Logo, Btn} from '../../LittleComponents/LittleComponents'
 import 'font-awesome/css/font-awesome.min.css'
 
 
@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="text">
                         <h2>HEY! THERE</h2>
                         <h1>I AM SMITH</h1>
-                        <h2>A PROFESSIONAL <span className="ani">{ani}</span></h2>
+                        <h2>A PROFESSIONAL <span className="">{}</span></h2>
                         <Btn text={'HIRE ME'}/>
                     </div>
                     <div className="img">

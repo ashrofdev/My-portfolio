@@ -5,3 +5,25 @@
 .work p {
     width: 45rem;
 }
+
+.work ul {
+    margin: 3rem 0;
+    display: flex;
+    list-style: none;
+}
+.work li {
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .5s;
+}
+.work li:hover {
+    color: var(--color-secondary);
+}
+.work .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 10rem);
+    grid-gap: 2rem;
+}
