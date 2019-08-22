@@ -13,6 +13,7 @@
 html {
   font-size: 62.25%;
   color: var(--text-color);
+  font-family: sans-serif;
 }
 
 p {
@@ -20,11 +21,4 @@ p {
   color: var(--text-color);
   font-weight: 200;
   margin-bottom: 2rem;
-}
-
-
-
-.footer {
-  background-color: black;
-  padding: 2rem;
 }

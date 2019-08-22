@@ -6,7 +6,6 @@
 .news p {
     width: 50rem;
     padding: 2rem 0 0 0;
-    font-style: italic;
     line-height: 2.5rem;
     color: var(--text-color);
     margin: auto;
