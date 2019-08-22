@@ -1,7 +1,7 @@
 .client {
     grid-column: 1/-1;
     text-align: center;
-    padding: 5rem 0;
+    padding: 7rem 0;
     margin-top: 3rem;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url(./testmonial/testmonial-slider.jpg);
     background-size: cover;
@@ -22,18 +22,19 @@
     border-radius: 50%;
 }
 .person p {
-    width: 40rem;
+    width: 50rem;
     padding: 2rem 0 0 0;
     font-style: italic;
-    line-height: 2rem;
-    color: rgb(180, 181, 182);
+    line-height: 2.5rem;
+    color: var(--white)
 }
 .person .name {
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 .person .job {
     font-size: 1.3rem;
-    color: rgb(180, 181, 182);
+    color: var(--white)
 }
