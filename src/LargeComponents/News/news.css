@@ -3,3 +3,26 @@
     text-align: center;
     padding: 5rem 0;
 }
+.news p {
+    width: 50rem;
+    padding: 2rem 0 0 0;
+    font-style: italic;
+    line-height: 2.5rem;
+    color: var(--text-color);
+    margin: auto;
+}
+.news form {
+    margin: 2rem 0;
+}
+.news form input {
+    padding: 1rem;
+    width: 20rem;
+    outline: none;
+}
+.news form button {
+    padding: 1.2rem 2rem;
+    background-color: var(--color-secondary);
+    color: var(--white);
+    outline: none;
+    border: none;
+}
