@@ -1,10 +1,11 @@
 import React from 'react'
 import './news.css'
+import {Heading} from '../../LittleComponents/LittleComponents'
 
 const NewsLetter = () => {
     return (
         <div className="news">
-           News Letter
+            <Heading text={'SUBSCRIBE NEWS LETTER'} />
         </div>
     )
 }
