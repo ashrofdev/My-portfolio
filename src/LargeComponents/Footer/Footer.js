@@ -8,8 +8,7 @@ const Footer = () => {
             <img src={require('../../img/logo/logo.png')} />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque officiis repellendus voluptas exercitationem numquam 
-                modi? Quisquam aliquid consequatur ipsa adipisci.
+                Neque officiis repellendus voluptas exercitationem numquam.
             </p>
             <div className="foot">
                 <span>&copy; All RIghts Reserved By Smarto</span>

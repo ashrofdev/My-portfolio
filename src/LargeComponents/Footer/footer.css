@@ -2,12 +2,12 @@
     grid-column: 1/-1;
     padding: 5rem 0;
     background-color: var(--color-secondary);
-    /* text-align: center;
+    text-align: center;
     color: rgb(188, 188, 189);
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr); */
+    grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr);
 }
-/* .det {
+.det {
     grid-column: 2/10;
 }
 .footer p {
@@ -25,4 +25,13 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
-} */
+}
+.foot .icons .fa {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    transition: all .5s;    
+}
+.foot .icons .fa:hover {
+    color: antiquewhite;
+    transform: rotate(360deg);
+}
