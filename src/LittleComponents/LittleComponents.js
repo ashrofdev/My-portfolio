@@ -18,6 +18,7 @@ export const Logo = () => {
 const onClick = () => {
     console.log(2414415)
     document.querySelector('.nav .list').classList.toggle("show")
+    document.querySelector('.nav-btn').classList.toggle("n-btn")
 }
 
 export const NavBar = () => {
@@ -31,7 +32,7 @@ export const NavBar = () => {
                 <li className="item"><a href="html/services.html">SERVICES</a></li>
                 <li className="item"><a href="html/contact.html">CONTACT</a></li>
             </ul>
-            <button onClick={onClick} className="btn"></button>
+            <button onClick={onClick} className="nav-btn"></button>
         </div>
     )
 }
