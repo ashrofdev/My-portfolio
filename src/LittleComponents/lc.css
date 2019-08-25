@@ -34,7 +34,18 @@
 }
 .nav .list {
     display: flex;
+    opacity: 0;
+    transform: translateX(15%);
+    z-index: -1;
+    transition: all .5s;
 }
+.nav .show {
+    opacity: 1;
+    transform: translate(0);
+    z-index: 1;
+    color: red;
+}
+
 .nav .list .item {
     font-size: 1.5rem;
     list-style: none;
@@ -60,4 +71,7 @@
 }
 .item a:hover::after {
     transform: scale(1);
+}
+.btn {
+    opacity: 100;
 }
