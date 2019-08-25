@@ -29,3 +29,35 @@
     margin-left: 2rem;
     background-color: red;
 }
+.nav {
+    display: flex;
+}
+.nav .list {
+    display: flex;
+}
+.nav .list .item {
+    font-size: 1.5rem;
+    list-style: none;
+}
+.item a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 500;
+    padding: 1rem;
+    position: relative;
+}
+.item a::after {
+    content: "";
+    width: 100%;
+    height: .3rem;
+    background-color: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .5s;
+    transform-origin: center;
+}
+.item a:hover::after {
+    transform: scale(1);
+}

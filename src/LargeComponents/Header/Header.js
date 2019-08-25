@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import {Logo, Btn} from '../../LittleComponents/LittleComponents'
+import {Logo, Btn, NavBar} from '../../LittleComponents/LittleComponents'
 import 'font-awesome/css/font-awesome.min.css'
 
 
@@ -10,7 +10,7 @@ const Header = () => {
             <div className="content">
                 <div className="top">
                     <Logo/>
-                    {'navigation'}
+                    <NavBar/>
                 </div>
                 <div className="bottom">
                     <div className="text">

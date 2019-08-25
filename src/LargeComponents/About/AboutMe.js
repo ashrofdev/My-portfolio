@@ -2,6 +2,10 @@ import React from 'react'
 import './about.css'
 import {Heading, About} from '../../LittleComponents/LittleComponents'
 
+window.addEventListener('scroll',(e)=>{
+    document.querySelector('.footer').classList.add('test')
+})
+
 const AboutMe = () => {
     return (
         <div className="about">
