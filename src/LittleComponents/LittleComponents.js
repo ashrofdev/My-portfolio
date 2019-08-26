@@ -16,6 +16,13 @@ export const Logo = () => {
     )
 }
 
+export const PageHeaderr = ({title}) => {
+    return (
+        <header>
+            <h1 className="heading-main">{title}</h1>
+        </header>
+    )
+}
 
 export const About = () => {
     return (

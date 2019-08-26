@@ -9,7 +9,7 @@ import Footer from '../LargeComponents/Footer/Footer';
 
 const HomePage = () => {
     return (
-        <div className="home">
+        <div className="home page">
             <Header/>
             <AboutMe/>
             <Work/>

@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
-import {Logo, Btn} from '../../LittleComponents/LittleComponents'
-import NavBar from '../../LittleComponents/NavBar'
+import { Btn } from '../../LittleComponents/LittleComponents'
 import 'font-awesome/css/font-awesome.min.css'
 
 
@@ -9,10 +8,6 @@ const Header = () => {
     return (
         <div className="header">
             <div className="content">
-                <div className="top">
-                    <Logo/>
-                    <NavBar/>
-                </div>
                 <div className="bottom">
                     <div className="text">
                         <h2>HEY! THERE</h2>

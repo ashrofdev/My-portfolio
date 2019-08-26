@@ -1,0 +1,21 @@
+.page {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr);
+}
+.page header {
+    background-image: url(../img/breadcrumb/breadcrumb.jpg);
+    grid-column: 1/-1;
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-secondary);
+}
+.page .heading-main {
+    margin-top: 7rem;
+}
+.page .body {
+    grid-column: 2/10;
+}

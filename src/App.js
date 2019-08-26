@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from './HomePage/HomePage';
 import NavBar from './LittleComponents/NavBar';
-import { ifStatement } from '@babel/types';
+import { Logo } from './LittleComponents/LittleComponents'
+import PortfolioPage from './PortfolioPage/Portfolio';
+import AboutPage from './AboutPage/AboutPage';
+import BlogPage from './BlogPage/BlogPage';
+import ServicesPage from './ServicesPage.js/Service';
+import ContactPage from './Contact/Contact';
 
 class App extends Component {
 
@@ -13,15 +18,21 @@ class App extends Component {
     }
   }
 
-  onPageChange = (route) => {
+  onPageChange = (route, e) => {
     this.setState({page: route})
+    console.log(route)
   }
 
 
   render() {
     return (
       <div className="App">
-      <NavBar onPageChange={this.onPageChange}/>
+        <div className="topp">
+          <div className="top">
+            <Logo/>
+            <NavBar onPageChange={this.onPageChange}/>
+          </div>
+        </div>
       { this.state.page === 'home'
           ? <div>
               <HomePage />
@@ -29,27 +40,27 @@ class App extends Component {
           : (
             this.state.page === 'about'
              ?  <div>
-                  {'about page'}
+                  <AboutPage/>
                 </div>
              : (
             this.state.page === 'blog'
              ?  <div>
-                  {'blog page'}
+                  <BlogPage/>
                 </div>
              : (
               this.state.page === 'portfolio'
               ?  <div>
-                    {'portfolio page'}
+                    <PortfolioPage/>
                   </div>
               :  (
                 this.state.page === 'services'
                 ?  <div>
-                      {'services page'}
+                      <ServicesPage/>
                     </div>
                 : (
                   this.state.page === 'contact'
                   ?  <div>
-                        {'contact page'}
+                        <ContactPage/>
                       </div>
                   : {}
                   )
