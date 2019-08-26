@@ -15,27 +15,7 @@ export const Logo = () => {
         </div>
     )
 }
-const onClick = () => {
-    console.log(2414415)
-    document.querySelector('.nav .list').classList.toggle("show")
-    document.querySelector('.nav-btn').classList.toggle("n-btn")
-}
 
-export const NavBar = () => {
-    return (
-        <div className="nav">
-            <ul className="list">
-                <li className="item"><a href="index.html">HOME</a></li>
-                <li className="item"><a href="html/about.html">ABOUT</a></li>
-                <li className="item"><a href="html/blog.html">BLOG</a></li>
-                <li className="item"><a href="html/portfolio.html">PORTFOLIO</a></li>
-                <li className="item"><a href="html/services.html">SERVICES</a></li>
-                <li className="item"><a href="html/contact.html">CONTACT</a></li>
-            </ul>
-            <button onClick={onClick} className="nav-btn"></button>
-        </div>
-    )
-}
 
 export const About = () => {
     return (
@@ -60,6 +40,17 @@ export const About = () => {
     )
 }
 
+export const PageHeader = () => {
+    return (
+        <div className="p-header">
+            <div className="cont">
+                <div className="top">
+                    <img src={require('./logo/logo2.png')} />
+                </div>
+            </div>
+        </div>
+    )
+}
 
 ////// HEADER ANIMATION //////////
 // export let ani = 'DESIGNER'

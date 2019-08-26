@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
-import {Logo, Btn, NavBar} from '../../LittleComponents/LittleComponents'
+import {Logo, Btn} from '../../LittleComponents/LittleComponents'
+import NavBar from '../../LittleComponents/NavBar'
 import 'font-awesome/css/font-awesome.min.css'
 
 

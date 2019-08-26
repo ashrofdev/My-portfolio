@@ -51,14 +51,16 @@
     font-size: 1.5rem;
     list-style: none;
 }
-.item a {
+.item button {
     text-decoration: none;
     color: var(--color-secondary);
     font-weight: 500;
     padding: 1rem;
+    background-color: transparent;
+    border: none;
     position: relative;
 }
-.item a::after {
+.item button::after {
     content: "";
     width: 100%;
     height: .3rem;
@@ -70,7 +72,7 @@
     transition: all .5s;
     transform-origin: center;
 }
-.item a:hover::after {
+.item button:hover::after {
     transform: scale(1);
 }
 .nav-btn {
@@ -84,6 +86,7 @@
     transition: all .5s;
 }
 .n-btn {
+    height: .2rem;
     transform: rotate(405deg);
     border: none;
 }
