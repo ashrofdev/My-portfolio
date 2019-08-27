@@ -7,6 +7,8 @@ import ClientView from '../LargeComponents/ClientsView/ClientView';
 import NewsLetter from '../LargeComponents/News/News';
 import Footer from '../LargeComponents/Footer/Footer';
 
+
+
 const HomePage = () => {
     return (
         <div className="home page">

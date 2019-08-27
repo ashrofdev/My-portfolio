@@ -1,10 +1,9 @@
-.services .img{
-    grid-column: 4/8;
-}
-.services .img img{
-    margin: 5rem auto;
-    width: 250%;
+
+.services .img {
+    grid-column: 3/9;
     height: auto;
+    width: 100%;
+    margin: 5rem auto;
     overflow: hidden;
 }
 
@@ -37,4 +36,11 @@
     font-size: 2rem;
     margin-bottom: 1rem;
     color: rgb(192, 189, 189);
+}
+.services .cc {
+    grid-column: 1/-1;
+    grid-row: 5/6;
+}
+.services .footer {
+    grid-row: 6/7;
 }

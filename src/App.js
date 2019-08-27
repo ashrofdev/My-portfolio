@@ -17,6 +17,20 @@ class App extends Component {
       page: 'home'
     }
   }
+  componentDidMount() {
+      window.addEventListener('scroll', (e)=> {
+          if (this.state.page==='home') {
+            if(e.currentTarget.scrollY >= 350) {
+                document.querySelector('.abilities').classList.add('test')
+            }else {
+                document.querySelector('.abilities').classList.remove('test')
+                console.log('bye')
+            }
+            console.log(e.currentTarget.pageYOffset)
+          }
+      })
+    
+  }
 
   onPageChange = (route, e) => {
     this.setState({page: route})

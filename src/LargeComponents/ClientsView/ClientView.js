@@ -6,7 +6,7 @@ const ClientView = () => {
         <div className="client">
             <div className="person">
                 <div className="img">
-                    <img alt=""src={require('./testmonial/t1.png')} />
+                    <img alt="" src={require('./testmonial/t1.png')} />
                 </div>
                 <p className="complement">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
