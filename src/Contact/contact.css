@@ -26,7 +26,7 @@
     margin: 2rem 0;
 }
 
-form {
+.contact form {
     display: flex;
     font-size: 1.3rem;
     flex-direction: column;
@@ -37,7 +37,7 @@ label {
     margin-bottom: 1rem;
     color: var(--color-secondary);
 }
-input {
+.contact input {
     height: 2rem;
     padding: .5rem;
     margin-top: .5rem;
@@ -45,7 +45,7 @@ input {
     font-size: 1.4rem;
     transition: all .3s;
 }
-input:focus, textarea:focus {
+.contact input:focus, textarea:focus {
     border: 1px solid black;
 }
 textarea {

@@ -2,6 +2,17 @@ import React from 'react'
 import './service.css'
 import { PageHeaderr } from '../LittleComponents/LittleComponents';
 
+
+window.addEventListener('scroll', (e)=> {
+    if(e.currentTarget.scrollY >= 350) {
+        document.querySelector('.abilities').classList.add('test')
+    }else {
+        document.querySelector('.abilities').classList.remove('test')
+        console.log('bye')
+    }
+    console.log(e.currentTarget.pageYOffset)
+})
+
 const ServicesPage = () => {
     return (
         <div className="services page">
