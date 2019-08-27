@@ -9,15 +9,16 @@
 }
 
 .features {
-    grid-column: 1/11;
-    justify-self: center;
+    margin: 5rem 0;
+    grid-column: 1/-1;
     display: flex;
+    justify-content: space-around;
     grid-row: 4/5;
 }
 .ex {
-    margin-right: 10rem;
     font-size: 2rem;
     width: 35rem;
+    margin-right: 2rem;
 }
 .ex span {
     color: var(--color-secondary);
@@ -29,6 +30,11 @@
 
 .feas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    grid-column-gap: 1rem;
+    grid-template-columns: repeat(3, 15rem);
+    grid-gap: 2rem;
+}
+.feas .fa {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(192, 189, 189);
 }
