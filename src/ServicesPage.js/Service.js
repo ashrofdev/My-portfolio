@@ -24,7 +24,54 @@ const ServicesPage = () => {
                     </p>
                 </div>
                 <div className="feas">
-                    features
+                    <div className="feature">
+                        <i className="fa fa-smile-o"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
+                    <div className="feature">
+                        <i className="fa fa-code"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
+                    <div className="feature">
+                        <i className="fa fa-tablet"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
+                    <div className="feature">
+                        <i className="fa fa-paint-brush"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
+                    <div className="feature">
+                        <i className="fa fa-camera"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
+                    <div className="feature">
+                        <i className="fa fa-bullhorn"></i>
+                        <h3>UI&UX DESIGN</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Fugit praesentium.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
