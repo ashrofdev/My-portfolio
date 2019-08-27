@@ -29,7 +29,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                     <div className="feature">
@@ -37,7 +37,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                     <div className="feature">
@@ -45,7 +45,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                     <div className="feature">
@@ -53,7 +53,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                     <div className="feature">
@@ -61,7 +61,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                     <div className="feature">
@@ -69,7 +69,7 @@ const ServicesPage = () => {
                         <h3>UI&UX DESIGN</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Fugit praesentium.
+                            adipisicing elit.
                         </p>
                     </div>
                 </div>
