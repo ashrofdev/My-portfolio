@@ -82,6 +82,7 @@ const ServicesPage = () => {
             <div className="cc">
                 <ClientView/>
             </div>
+            <Footer/>
         </div>
     )
 }
