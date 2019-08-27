@@ -15,6 +15,21 @@ const ContactPage = () => {
                     <span>Want To Connect</span> with Us 
                     <div>Here is Our <span>Contact Information</span></div>
                 </div>
+                <p>Send us a message</p>
+                <form>
+                    <label>
+                        NAME
+                        <input />
+                    </label>
+                    <label>
+                        EMAIL ADDRESS
+                        <input type="email"/>
+                    </label>
+                    <label>
+                        MESSAGE
+                        <textarea/>
+                    </label>
+                </form>
             </div>
         </div>
     )

@@ -14,8 +14,43 @@
 .contact .info .headin {
     font-size: 2rem;
 }
-.info .headin span, p span {
+.info .headin span {
     font-size: 2rem;
     font-weight: 700;
     color: var(--color-secondary);
+}
+.info p {
+    color: var(--color-secondary);
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+form {
+    display: flex;
+    font-size: 1.3rem;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+input {
+    height: 2rem;
+    padding: .5rem;
+    margin-top: .5rem;
+    outline: none;
+    font-size: 1.4rem;
+    transition: all .3s;
+}
+input:focus, textarea:focus {
+    border: 1px solid black;
+}
+textarea {
+    height: 20rem;
+    font-size: 1.4rem;
+    outline: none;
+    padding: .5rem;
+    transition: all .3s;
 }
