@@ -2,8 +2,26 @@
     grid-column: 4/8;
 }
 .services .img img{
-    margin-top: 5rem;
+    margin: 5rem auto;
     width: 250%;
-    height: 100%;
+    height: auto;
     overflow: hidden;
+}
+
+.features {
+    grid-column: 2/10;
+    display: flex;
+    grid-row: 4/5;
+}
+.ex {
+    margin-right: 10rem;
+    font-size: 2rem;
+    width: 35rem;
+}
+.ex span {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+.ex p {
+    margin: 1rem 0;
 }

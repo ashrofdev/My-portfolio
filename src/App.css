@@ -21,10 +21,11 @@ body {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--text-color);
-  font-weight: 200;
+  font-weight: 100;
   margin-bottom: 2rem;
+  line-height: 2.2rem;
 }
 
 .topp {
