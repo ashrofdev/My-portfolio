@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 import { PageHeaderr } from '../LittleComponents/LittleComponents';
+import Footer from '../LargeComponents/Footer/Footer'
 
 
 const ContactPage = () => {
@@ -31,6 +32,7 @@ const ContactPage = () => {
                     </label>
                 </form>
             </div>
+            <Footer/>
         </div>
     )
 }

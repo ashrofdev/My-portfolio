@@ -4,11 +4,12 @@
 .contact .map img {
     width: 100%;
     overflow: hidden;
+    height: 100%;
 }
 
 .contact .info {
     grid-column: 7/10;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .contact .info .headin {
