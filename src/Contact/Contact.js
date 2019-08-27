@@ -5,8 +5,12 @@ import { PageHeaderr } from '../LittleComponents/LittleComponents';
 
 const ContactPage = () => {
     return (
-        <div className="page">
+        <div className="contact page">
             <PageHeaderr title='CONTACT'/>
+            <div className="map">
+                <img src={require('../img/map.png')}/>
+            </div>
+            
         </div>
     )
 }

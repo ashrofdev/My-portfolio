@@ -1,0 +1,7 @@
+.contact .map {
+    grid-column: 1/6;
+}
+.contact .map img {
+    width: 100%;
+    overflow: hidden;
+}
