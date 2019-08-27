@@ -5,3 +5,17 @@
     width: 100%;
     overflow: hidden;
 }
+
+.contact .info {
+    grid-column: 7/10;
+    margin-top: 5rem;
+}
+
+.contact .info .headin {
+    font-size: 2rem;
+}
+.info .headin span, p span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
