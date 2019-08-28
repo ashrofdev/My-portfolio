@@ -82,13 +82,40 @@ const ServicesPage = () => {
             <div className="plan">
                 <div className="cards">
                     <div className="card">
-                        card
+                        <div className="type">BASIC</div>
+                        <i className="fa fa-gift"></i>
+                        <div className="price">$35/M</div>
+                        <ul>
+                            <li>Disc space 350Gb</li>
+                            <li>Bandwidth 25</li>
+                            <li>Database 2</li>
+                            <li>30 Email Accounts</li>
+                        </ul>
+                        <button>SELECT PLAN</button>
                     </div>
                     <div className="card">
-                        card
+                        <div className="type">STANDARD</div>
+                        <i className="fa fa-gift"></i>
+                        <div className="price">$35/M</div>
+                        <ul>
+                            <li>Disc space 350Gb</li>
+                            <li>Bandwidth 25</li>
+                            <li>Database 2</li>
+                            <li>30 Email Accounts</li>
+                        </ul>
+                        <button>SELECT PLAN</button>
                     </div>
                     <div className="card">
-                        card
+                        <div className="type">PRO</div>
+                        <i className="fa fa-gift"></i>
+                        <div className="price">$35/M</div>
+                        <ul>
+                            <li>Disc space 350Gb</li>
+                            <li>Bandwidth 25</li>
+                            <li>Database 2</li>
+                            <li>30 Email Accounts</li>
+                        </ul>
+                        <button>SELECT PLAN</button>
                     </div>
                 </div>
             </div>
