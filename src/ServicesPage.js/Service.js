@@ -79,6 +79,19 @@ const ServicesPage = () => {
                     </div>
                 </div>
             </div>
+            <div className="plan">
+                <div className="cards">
+                    <div className="card">
+                        card
+                    </div>
+                    <div className="card">
+                        card
+                    </div>
+                    <div className="card">
+                        card
+                    </div>
+                </div>
+            </div>
             <div className="cc">
                 <ClientView/>
             </div>

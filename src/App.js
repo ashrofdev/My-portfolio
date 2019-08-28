@@ -14,7 +14,7 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'home'
+      page: 'services'
     }
   }
   componentDidMount() {

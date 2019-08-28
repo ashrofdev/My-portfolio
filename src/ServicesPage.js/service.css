@@ -37,10 +37,19 @@
     margin-bottom: 1rem;
     color: rgb(192, 189, 189);
 }
+.services .plan {
+    background-color: var(--color-primary);
+    grid-row: 5/6;
+    grid-column: 1/-1;
+}
 .services .cc {
     grid-column: 1/-1;
-    grid-row: 5/6;
+    margin-top: 0;
+    grid-row: 6/7;
+}
+.services .cc .client {
+    margin-top: 0;
 }
 .services .footer {
-    grid-row: 6/7;
+    grid-row: 7/8;
 }
