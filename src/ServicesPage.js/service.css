@@ -35,7 +35,7 @@
 .feas .fa {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: rgb(192, 189, 189);
+    color: rgb(109, 107, 107);
 }
 .services .plan {
     background-color: var(--color-primary);
@@ -54,6 +54,12 @@
     background-color: rgb(231, 231, 231);
     padding: 2rem 5rem;
     text-align: center;
+}
+.cards .card .type {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: var(--color-secondary);
 }
 .cards .card .fa {
     font-size: 4rem;
@@ -76,6 +82,17 @@
     padding: .5rem 0;
     font-size: 1.3rem;
     font-weight: 100;
+}
+.plan .cards button {
+    padding: .5rem 2rem;
+    border-radius: 10rem;
+    border: none;
+    font-weight: 500;
+    transition: all .3s;
+}
+.card button:hover {
+    background-color: var(--color-secondary);
+    color: aliceblue;
 }
 
 .services .cc {

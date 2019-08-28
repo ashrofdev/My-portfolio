@@ -83,7 +83,7 @@ const ServicesPage = () => {
                 <div className="cards">
                     <div className="card">
                         <div className="type">BASIC</div>
-                        <i className="fa fa-gift"></i>
+                        <i className="fa fa-lightbulb-o"></i>
                         <div className="price">$35/M</div>
                         <ul>
                             <li>Disc space 350Gb</li>
@@ -107,7 +107,7 @@ const ServicesPage = () => {
                     </div>
                     <div className="card">
                         <div className="type">PRO</div>
-                        <i className="fa fa-gift"></i>
+                        <i className="fa fa-rocket"></i>
                         <div className="price">$35/M</div>
                         <ul>
                             <li>Disc space 350Gb</li>
