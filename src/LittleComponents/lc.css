@@ -124,3 +124,27 @@
     left: 0;
     background-color: var(--color-secondary);
 }
+
+/* STYLING THE SCROLLER */
+
+.scroller {
+    padding: .8rem .6rem;
+    background-color: var(--color-secondary);
+    box-shadow: 1px 1px 1rem rgb(70, 69, 69);
+    transform: rotate(-90deg) translateY(10rem);
+    color: var(--white);
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    opacity: 0;
+    transition: all .4s;
+    cursor: pointer;
+}
+.scroller:hover {
+    transform: scale(1.1) rotate(-90deg);
+}
+.sshow {
+    opacity: 1;
+    transform: rotate(-810deg) translateY(0);
+}

@@ -59,6 +59,13 @@ export const PageHeader = () => {
     )
 }
 
+export const ScrollUp = () => {
+    return (
+        <div className="scroller"> >> </div>
+    )
+}
+
+
 ////// HEADER ANIMATION //////////
 // export let ani = 'DESIGNER'
 // setInterval(() => {

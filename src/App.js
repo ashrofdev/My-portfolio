@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from './HomePage/HomePage';
 import NavBar from './LittleComponents/NavBar';
-import { Logo } from './LittleComponents/LittleComponents'
+import { Logo, ScrollUp } from './LittleComponents/LittleComponents'
 import PortfolioPage from './PortfolioPage/Portfolio';
 import AboutPage from './AboutPage/AboutPage';
 import BlogPage from './BlogPage/BlogPage';
@@ -22,11 +22,16 @@ class App extends Component {
           if (this.state.page==='home') {
             if(e.currentTarget.scrollY >= 350) {
                 document.querySelector('.abilities').classList.add('test')
-            }else {
+            } else {
                 document.querySelector('.abilities').classList.remove('test')
                 console.log('bye')
             }
             console.log(e.currentTarget.pageYOffset)
+          }
+          if(e.currentTarget.scrollY >= 400) {
+            document.querySelector('.scroller').classList.add('sshow')
+          } else {
+            document.querySelector('.scroller').classList.remove('sshow')
           }
       })
     
@@ -45,6 +50,7 @@ class App extends Component {
           <div className="top">
             <Logo/>
             <NavBar onPageChange={this.onPageChange}/>
+            <ScrollUp/>
           </div>
         </div>
       { this.state.page === 'home'
