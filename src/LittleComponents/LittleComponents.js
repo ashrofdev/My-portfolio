@@ -59,9 +59,14 @@ export const PageHeader = () => {
     )
 }
 
+
+const scroll = () => {
+    window.scroll(0, -1000)
+}
+
 export const ScrollUp = () => {
     return (
-        <div className="scroller"> >> </div>
+        <div className="scroller" onClick={scroll}> >> </div>
     )
 }
 
