@@ -14,11 +14,10 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'services'
+      page: 'about'
     }
   }
   componentDidMount() {
-    
       window.addEventListener('scroll', (e)=> {
           if (this.state.page==='home') {
             if(e.currentTarget.scrollY >= 350) {
