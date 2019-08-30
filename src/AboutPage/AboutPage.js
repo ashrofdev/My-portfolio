@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import { PageHeaderr, Brand } from '../LittleComponents/LittleComponents';
 import AboutMe from '../LargeComponents/About/AboutMe';
+import Footer from '../LargeComponents/Footer/Footer'
 
 const AboutPage = () => {
     return (
@@ -49,6 +50,7 @@ const AboutPage = () => {
             <div className="brand">
                 <Brand/>
             </div>
+            <Footer/>
         </div>
     )
 }
