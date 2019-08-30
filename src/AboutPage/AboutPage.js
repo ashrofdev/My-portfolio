@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import { PageHeaderr, About } from '../LittleComponents/LittleComponents';
+import { PageHeaderr, Brand } from '../LittleComponents/LittleComponents';
 import AboutMe from '../LargeComponents/About/AboutMe';
 
 const AboutPage = () => {
@@ -20,10 +20,34 @@ const AboutPage = () => {
                      quasi aperiam earum </p>
                      <div className="items">
                          <div className="item">
-                             
+                             <div className="number">01.</div>
+                             <div className="title">UI&UX DESIGN</div>
+                             <p className="text">Blanditiis dolor placeat et
+                             quasi aperiam earum</p>
+                         </div>
+                         <div className="item">
+                             <div className="number">02.</div>
+                             <div className="title">UI&UX DESIGN</div>
+                             <p className="text">Blanditiis dolor placeat et
+                             quasi aperiam earum</p>
+                         </div>
+                         <div className="item">
+                             <div className="number">03.</div>
+                             <div className="title">UI&UX DESIGN</div>
+                             <p className="text">Blanditiis dolor placeat et
+                             quasi aperiam earum</p>
+                         </div>
+                         <div className="item">
+                             <div className="number">04.</div>
+                             <div className="title">UI&UX DESIGN</div>
+                             <p className="text">Blanditiis dolor placeat et
+                             quasi aperiam earum</p>
                          </div>
                      </div>
                 </div>
+            </div>
+            <div className="brand">
+                <Brand/>
             </div>
         </div>
     )

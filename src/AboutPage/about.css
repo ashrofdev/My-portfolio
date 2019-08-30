@@ -6,18 +6,38 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
+    align-items: center;
 }
 .offers .my-pic {
     margin-right: 4rem;
 }
 .offers .my-pic img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    filter: brightness(40%);
 }
 .offers .detail {
     display: block;
 }
 .detail .head {
     font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.items .item .number {
+    font-size: 2.5rem;
     font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+.items .item .title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--color-secondary);
 }

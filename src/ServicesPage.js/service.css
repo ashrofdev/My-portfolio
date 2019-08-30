@@ -103,7 +103,7 @@
 .services .cc .client {
     margin-top: 0;
 }
-.services .brand {
+.page .brand {
     grid-row: 7/8;
     display: flex;
     grid-column: 2/10;
