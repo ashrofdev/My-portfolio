@@ -122,6 +122,23 @@ const ServicesPage = () => {
             <div className="cc">
                 <ClientView/>
             </div>
+            <div className="brand">
+                <div className="b">
+                    <img src={require('./brand/b1.png')}/>
+                </div>
+                <div className="b">
+                    <img src={require('./brand/b2.png')}/>
+                </div>
+                <div className="b">
+                    <img src={require('./brand/b3.png')}/>
+                </div>
+                <div className="b">
+                    <img src={require('./brand/b4.png')}/>
+                </div>
+                <div className="b">
+                    <img src={require('./brand/b5.png')}/>
+                </div>
+            </div>
             <Footer/>
         </div>
     )

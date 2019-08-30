@@ -103,6 +103,16 @@
 .services .cc .client {
     margin-top: 0;
 }
-.services .footer {
+.services .brand {
     grid-row: 7/8;
+    display: flex;
+    grid-column: 2/10;
+    padding: 5rem 0;
+}
+.brand .b img {
+    width: 100%;
+    height: 100%;
+}
+.services .footer {
+    grid-row: 8/9;
 }
