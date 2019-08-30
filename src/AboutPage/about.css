@@ -1,3 +1,6 @@
+.page {
+    overflow-x: hidden;
+}
 .offers {
     grid-column: 2/10;
     display: flex;
