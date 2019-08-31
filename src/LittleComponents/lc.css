@@ -58,6 +58,7 @@
     font-size: 1.5rem;
     list-style: none;
 }
+
 .item button {
     text-decoration: none;
     color: var(--color-secondary);
@@ -117,7 +118,6 @@
     height: .2rem;
     transform: rotate(405deg);
     border: none;
-    position: fixed;
 }
 .n-btn::before {
     width: 100%;
@@ -162,6 +162,9 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+    .n-btn {
+        position: fixed;
+    }
     .nav .list {
         flex-direction: column;
         text-align: center;
@@ -176,11 +179,14 @@
         transform: translateX(100%);
         transition: all 1s;
     }
+    .nav .list .item button {
+        font-size: 2.3rem;
+        list-style: none;
+    }
     .nav .show {
         opacity: 1;
         transform: translate(0);
         z-index: 1;
-        color: red;
     }
     .details {
         flex-direction: column;
@@ -195,9 +201,5 @@
         height: 10rem;
         padding: 1rem;
         margin: 1rem;
-    }
-    .brand {
-        margin: 0;
-        padding: 0;
     }
 }
