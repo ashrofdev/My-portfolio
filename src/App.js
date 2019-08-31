@@ -27,6 +27,8 @@ class App extends Component {
                 console.log('bye')
             }
             console.log(e.currentTarget.pageYOffset)
+          } else if (this.state.page==='about') {
+            document.querySelector('.abilities').classList.add('test')
           }
           if(e.currentTarget.scrollY >= 400) {
             document.querySelector('.scroller').classList.add('sshow')
