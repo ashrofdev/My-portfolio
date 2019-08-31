@@ -57,10 +57,8 @@ button {
   outline: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .topp {
-      display: block;
-      margin: 0;
-      padding: 0;
+      grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(1rem, 10rem)) minmax(2rem, 1fr);
     }
 }

@@ -3,7 +3,7 @@
     grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr);
    
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .home, .page {
         display: block;
     }
