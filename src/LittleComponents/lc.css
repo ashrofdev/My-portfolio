@@ -90,6 +90,7 @@
     cursor: pointer;
     position: relative;
     outline: none;
+    z-index: 10000;
     transition: all .5s;
 }
 .n-btn {
@@ -147,4 +148,36 @@
 .sshow {
     opacity: 1;
     transform: rotate(-810deg) translateY(0);
+}
+
+@media only screen and (max-width: 800px) {
+    .nav {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .nav .list {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        position: fixed;
+        padding: 10rem 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--color-primary);
+    }
+    .details {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .details .text {
+        width: 100%;
+    }
+    .details .abilities {
+        width: 90%;
+        margin: auto 0;
+        padding: 5rem;
+    }
 }

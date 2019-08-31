@@ -14,7 +14,7 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'blog'
+      page: 'home'
     }
   }
   componentDidMount() {
@@ -39,9 +39,11 @@ class App extends Component {
     
   }
 
-  onPageChange = (route, e) => {
+  onPageChange = (route) => {
     this.setState({page: route})
     console.log(route)
+    document.querySelector('.nav .list').classList.remove('show')
+    document.querySelector('.nav-btn').classList.remove('n-btn')
   }
 
 
