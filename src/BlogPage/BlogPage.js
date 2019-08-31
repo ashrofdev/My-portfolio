@@ -1,6 +1,7 @@
 import React from 'react'
 import './blog.css'
 import { PageHeaderr } from '../LittleComponents/LittleComponents';
+import Footer from '../LargeComponents/Footer/Footer';
 
 const BlogPage = () => {
     return (
@@ -152,6 +153,7 @@ const BlogPage = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
