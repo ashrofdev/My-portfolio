@@ -14,7 +14,7 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'about'
+      page: 'blog'
     }
   }
   componentDidMount() {
@@ -97,3 +97,4 @@ class App extends Component {
 }
 
 export default App;
+     
