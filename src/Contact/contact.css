@@ -55,3 +55,8 @@ textarea {
     padding: .5rem;
     transition: all .3s;
 }
+@media only screen and (max-width: 700px) {
+    .contact .info {
+        padding: 2rem;
+    }
+}
