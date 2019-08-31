@@ -116,8 +116,32 @@
 .services .footer {
     grid-row: 8/9;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
+    .services .img {
+        height: auto;
+        width: 60%;
+        margin: 5rem auto;
+        overflow: hidden;
+    }
     .page .brand {
         padding: 2rem 0;
+    }
+    .services .plan {
+        display: block;
+    }
+    .plan .cards {
+        display: block;
+        padding: 2rem;
+    }
+    .card {
+        margin-bottom: 2rem;
+    }
+    .features {
+        display: block;
+        padding: 2rem;
+    }
+    .feas {
+        grid-template-columns: repeat(2, 15rem);
+        grid-gap: 1rem;
     }
 }

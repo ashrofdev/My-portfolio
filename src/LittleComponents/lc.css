@@ -173,7 +173,14 @@
         right: 0;
         bottom: 0;
         background-color: var(--color-primary);
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    .nav .show {
+        opacity: 1;
         transform: translate(0);
+        z-index: 1;
+        color: red;
     }
     .details {
         flex-direction: column;
