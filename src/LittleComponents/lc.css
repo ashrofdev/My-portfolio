@@ -47,7 +47,18 @@
     width: 100%;
     background-color: var(--color-primary);
 }
+@keyframes grade {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    100% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
 .bar .grade {
+    animation: grade 5s;
     width: 80%;
     background-color: var(--color-secondary);
     height: 100%;

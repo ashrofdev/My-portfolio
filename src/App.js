@@ -22,9 +22,9 @@ class App extends Component {
           if (this.state.page==='home') {
             if(e.currentTarget.scrollY >= 350) {
                 document.querySelector('.abilities').classList.add('test')
+                document.querySelector('.grade').classList.add('grade-show')
             } else {
                 document.querySelector('.abilities').classList.remove('test')
-                console.log('bye')
             }
             console.log(e.currentTarget.pageYOffset)
           } else if (this.state.page==='about') {
