@@ -35,7 +35,7 @@
     transform: none;
     opacity: 1;
 }
-/* .block .title {
+.block .title {
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -54,7 +54,7 @@
     position: absolute;
     top: -2.5rem;
     right: -2rem;
-} */
+}
 .nav {
     display: flex;
     align-items: center;
