@@ -41,7 +41,16 @@ export const About = () => {
                 <Btn text={'DOWNLOAD CV'} />
             </div>
             <div className="abilities">
-                meter
+                <div className="block">
+                    <div className="title">UI&UX DESIGN</div>
+                    <div className="bar">
+                        <div className="grade">
+                            grade
+                            <div className="percent">80%</div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     )
