@@ -48,7 +48,33 @@ export const About = () => {
                             grade
                             <div className="percent">80%</div>
                         </div>
-                        
+                    </div>
+                </div>
+                <div className="block">
+                    <div className="title">WEB DESIGN</div>
+                    <div className="bar">
+                        <div className="grade">
+                            grade
+                            <div className="percent">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="block">
+                    <div className="title">APP DESIGN</div>
+                    <div className="bar">
+                        <div className="grade">
+                            grade
+                            <div className="percent">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="block">
+                    <div className="title">SKETCH DESIGN</div>
+                    <div className="bar">
+                        <div className="grade">
+                            grade
+                            <div className="percent">80%</div>
+                        </div>
                     </div>
                 </div>
             </div>
