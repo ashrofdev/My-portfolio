@@ -52,7 +52,7 @@ class App extends Component {
       <div className="App">
         <div className="topp">
           <div className="top">
-            <Logo/>
+            <Logo  onPageChange={this.onPageChange}/>
             <NavBar onPageChange={this.onPageChange}/>
             <ScrollUp/>
           </div>

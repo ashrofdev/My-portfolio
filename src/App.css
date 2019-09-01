@@ -36,6 +36,9 @@ p {
 .top {
   grid-column: 2/10;
 }
+.logo {
+  cursor: pointer;
+}
 
 
 /* ANIMATINT PAGE ON CLICK */

@@ -8,9 +8,9 @@ export const Btn = ({text}) => {
 export const Heading = ({text}) => {
     return <h2 className="heading">{text}</h2>
 }
-export const Logo = () => {
+export const Logo = ({onPageChange}) => {
     return (
-        <div className="logo">
+        <div className="logo" onClick={()=> onPageChange('home')}>
             <img src={require('./logo/logo2.png')} />
         </div>
     )
