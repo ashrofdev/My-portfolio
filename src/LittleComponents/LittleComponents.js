@@ -44,36 +44,32 @@ export const About = () => {
                 <div className="block">
                     <div className="title">UI&UX DESIGN</div>
                     <div className="bar">
-                        <div className="grade">
-                            grade
-                            <div className="percent">80%</div>
+                        <div className="grade" style={{width: '85%'}}>
+                            <div className="percent">85%</div>
                         </div>
                     </div>
                 </div>
                 <div className="block">
                     <div className="title">WEB DESIGN</div>
                     <div className="bar">
-                        <div className="grade">
-                            grade
-                            <div className="percent">80%</div>
+                        <div className="grade" style={{width: '90%'}}>
+                            <div className="percent">90%</div>
                         </div>
                     </div>
                 </div>
                 <div className="block">
                     <div className="title">APP DESIGN</div>
                     <div className="bar">
-                        <div className="grade">
-                            grade
-                            <div className="percent">80%</div>
+                        <div className="grade" style={{width: '75%'}}>
+                            <div className="percent">75%</div>
                         </div>
                     </div>
                 </div>
                 <div className="block">
                     <div className="title">SKETCH DESIGN</div>
                     <div className="bar">
-                        <div className="grade">
-                            grade
-                            <div className="percent">80%</div>
+                        <div className="grade" style={{width: '68%'}}>
+                            <div className="percent">68%</div>
                         </div>
                     </div>
                 </div>
