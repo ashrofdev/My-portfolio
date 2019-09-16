@@ -8,11 +8,29 @@
     background-attachment: fixed;
     background-position: center;
 }
-.client .person {
+@keyframes person {
+    0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.person {
+    animation: person .5s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: all 1s;
+}
+.person-show {
+    opacity: 1;
+    transform: none;
 }
 .client .person .img {
     width: 10rem;

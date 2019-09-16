@@ -1,10 +1,5 @@
 import React from 'react'
 import './client.css'
-import ServicesPage from '../../ServicesPage.js/Service'
-import AboutMe from '../About/AboutMe'
-
-
-
 
 const ClientView = ({person}) => {
    

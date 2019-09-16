@@ -24,10 +24,22 @@ class App extends Component {
   componentDidMount() {
       setInterval(() => {
         this.setState({person: test[1]})
+        document.querySelector('.person').classList.add('person-show')
+        setTimeout(() => {
+            document.querySelector('.person').classList.remove('person-show')
+        }, 2000); 
         setTimeout(() => {
           this.setState({person: test[2]})
+          document.querySelector('.person').classList.add('person-show')
+          setTimeout(() => {
+              document.querySelector('.person').classList.remove('person-show')
+          }, 2000); 
           setTimeout(() => {
               this.setState({person: test[0]})
+              document.querySelector('.person').classList.add('person-show')
+              setTimeout(() => {
+                  document.querySelector('.person').classList.remove('person-show')
+              }, 2000); 
           }, 3000); 
         }, 3000); 
       }, 9000);  
