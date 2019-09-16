@@ -8,16 +8,29 @@ import AboutPage from './AboutPage/AboutPage';
 import BlogPage from './BlogPage/BlogPage';
 import ServicesPage from './ServicesPage.js/Service';
 import ContactPage from './Contact/Contact';
+import { Person1, Person2, Person3 } from './LittleComponents/LittleComponents'
+
+const test = [<Person1/>, <Person2/>, <Person3/>]
 
 class App extends Component {
 
   constructor() {
     super()
     this.state={
-      page: 'home'
+      page: 'home',
+      person: test[0]
     }
   }
   componentDidMount() {
+      setInterval(() => {
+        this.setState({person: test[1]})
+        setTimeout(() => {
+          this.setState({person: test[2]})
+          setTimeout(() => {
+              this.setState({person: test[0]})
+          }, 3000); 
+        }, 3000); 
+      }, 9000);  
       window.addEventListener('scroll', (e)=> {
           if (this.state.page==='home') {
             if(e.currentTarget.scrollY >= 350) {
@@ -26,7 +39,6 @@ class App extends Component {
             } else {
                 document.querySelector('.abilities').classList.remove('test')
             }
-            console.log(e.currentTarget.pageYOffset)
           } else if (this.state.page==='about') {
             document.querySelector('.abilities').classList.add('test')
           }
@@ -59,7 +71,7 @@ class App extends Component {
         </div>
       { this.state.page === 'home'
           ? <div>
-              <HomePage />
+              <HomePage person={this.state.person}/>
             </div>
           : (
             this.state.page === 'about'

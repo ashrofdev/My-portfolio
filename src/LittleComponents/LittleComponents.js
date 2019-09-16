@@ -122,6 +122,67 @@ export const Brand = () => {
     )
 }
 
+export const Person1 = () => {
+    return (
+        <div className="person">
+            <div className="img">
+                <img alt="" src={require('./testmonial/t1.png')} />
+            </div>
+            <p className="complement">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque officiis repellendus voluptas exercitationem numquam 
+                modi? Quisquam aliquid consequatur ipsa adipisci.
+            </p>
+            <div className="name">
+                JOHN DOE
+            </div>
+            <div className="job">
+                BUssiness man
+            </div>
+        </div>
+    )
+}
+export const Person2 = () => {
+    return (
+        <div className="person">
+            <div className="img">
+                <img alt="" src={require('./testmonial/t2.png')} />
+            </div>
+            <p className="complement">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque officiis repellendus voluptas exercitationem numquam 
+                modi? Quisquam aliquid consequatur ipsa adipisci.
+            </p>
+            <div className="name">
+                Daniel Wilson
+            </div>
+            <div className="job">
+                Developer
+            </div>
+        </div>
+    )
+}
+export const Person3 = () => {
+    return (
+        <div className="person">
+            <div className="img">
+                <img alt="" src={require('./testmonial/t3.jpeg')} />
+            </div>
+            <p className="complement">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque officiis repellendus voluptas exercitationem numquam 
+                modi? Quisquam aliquid consequatur ipsa adipisci.
+            </p>
+            <div className="name">
+                Samir Khan
+            </div>
+            <div className="job">
+                Art work
+            </div>
+        </div>
+    )
+}
+
 
 ////// HEADER ANIMATION //////////
 // export let ani = 'DESIGNER'

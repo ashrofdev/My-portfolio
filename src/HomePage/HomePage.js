@@ -9,13 +9,13 @@ import Footer from '../LargeComponents/Footer/Footer';
 
 
 
-const HomePage = () => {
+const HomePage = ({person}) => {
     return (
         <div className="home page">
             <Header/>
             <AboutMe/>
             <Work/>
-            <ClientView/>
+            <ClientView person={person}/>
             <NewsLetter/>
             <Footer/>
         </div>
