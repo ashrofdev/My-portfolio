@@ -7,7 +7,7 @@ import Footer from '../LargeComponents/Footer/Footer';
 
 
 
-const ServicesPage = () => {
+const ServicesPage = ({person}) => {
     return (
         <div className="services page">
             <PageHeaderr title='SERVICES'/>
@@ -120,7 +120,7 @@ const ServicesPage = () => {
                 </div>
             </div>
             <div className="cc">
-                <ClientView/>
+                <ClientView person={person}/>
             </div>
             <Brand/>
             <Footer/>

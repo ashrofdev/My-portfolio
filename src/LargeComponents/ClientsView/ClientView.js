@@ -5,7 +5,6 @@ const ClientView = ({person}) => {
    
     return (
         <div className="client">
-            
             {person}
         </div>
     )

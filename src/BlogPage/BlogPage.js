@@ -154,6 +154,7 @@ const BlogPage = () => {
                 </div>
             </div>
             <Footer/>
+            <div className="person"></div>
         </div>
     )
 }

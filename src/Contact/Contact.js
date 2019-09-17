@@ -33,6 +33,7 @@ const ContactPage = () => {
                 </form>
             </div>
             <Footer/>
+            <div className="person"></div>
         </div>
     )
 }

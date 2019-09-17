@@ -13,6 +13,7 @@ const PortfolioPage = () => {
                 <Work/>
             </div>
             <Footer/>
+            <div className="person"></div>
         </div>
     )
 }

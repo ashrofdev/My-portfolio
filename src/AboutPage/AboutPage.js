@@ -51,6 +51,7 @@ const AboutPage = () => {
                 <Brand/>
             </div>
             <Footer/>
+            <div className="person"></div>
         </div>
     )
 }

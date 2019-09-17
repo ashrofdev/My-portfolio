@@ -18,48 +18,50 @@ class App extends Component {
     super()
     this.state={
       page: 'home',
-      person: test[0]
+      person: test[0],
+      story: false
     }
   }
   componentDidMount() {
-      setInterval(() => {
-        this.setState({person: test[1]})
+    const anime = setInterval(() => {
+      this.setState({person: test[1]})
+      document.querySelector('.person').classList.add('person-show')
+      setTimeout(() => {
+          document.querySelector('.person').classList.remove('person-show')
+      }, 2000); 
+      setTimeout(() => {
+        this.setState({person: test[2]})
         document.querySelector('.person').classList.add('person-show')
         setTimeout(() => {
             document.querySelector('.person').classList.remove('person-show')
         }, 2000); 
         setTimeout(() => {
-          this.setState({person: test[2]})
-          document.querySelector('.person').classList.add('person-show')
-          setTimeout(() => {
-              document.querySelector('.person').classList.remove('person-show')
-          }, 2000); 
-          setTimeout(() => {
-              this.setState({person: test[0]})
-              document.querySelector('.person').classList.add('person-show')
-              setTimeout(() => {
-                  document.querySelector('.person').classList.remove('person-show')
-              }, 2000); 
-          }, 3000); 
+            this.setState({person: test[0]})
+            document.querySelector('.person').classList.add('person-show')
+            setTimeout(() => {
+                document.querySelector('.person').classList.remove('person-show')
+            }, 2000); 
         }, 3000); 
-      }, 9000);  
-      window.addEventListener('scroll', (e)=> {
-          if (this.state.page==='home') {
-            if(e.currentTarget.scrollY >= 350) {
-                document.querySelector('.abilities').classList.add('test')
-                document.querySelector('.grade').classList.add('grade-show')
-            } else {
-                document.querySelector('.abilities').classList.remove('test')
-            }
-          } else if (this.state.page==='about') {
+      }, 3000); 
+    }, 9000)
+
+    window.addEventListener('scroll', (e)=> {
+      if (this.state.page==='home') {
+        if(e.currentTarget.scrollY >= 350) {
             document.querySelector('.abilities').classList.add('test')
-          }
-          if(e.currentTarget.scrollY >= 400) {
-            document.querySelector('.scroller').classList.add('sshow')
-          } else {
-            document.querySelector('.scroller').classList.remove('sshow')
-          }
-      })
+            document.querySelector('.grade').classList.add('grade-show')
+        } else {
+            document.querySelector('.abilities').classList.remove('test')
+        }
+      } else if (this.state.page==='about') {
+        document.querySelector('.abilities').classList.add('test')
+      }
+      if(e.currentTarget.scrollY >= 400) {
+        document.querySelector('.scroller').classList.add('sshow')
+      } else {
+        document.querySelector('.scroller').classList.remove('sshow')
+      }
+    })
     
   }
 
@@ -103,7 +105,7 @@ class App extends Component {
               :  (
                 this.state.page === 'services'
                 ?  <div>
-                      <ServicesPage/>
+                      <ServicesPage person={this.state.person}/>
                     </div>
                 : (
                   this.state.page === 'contact'
