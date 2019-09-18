@@ -50,4 +50,10 @@
         margin: 0;
         padding-top: 7rem;
     }
+    .gallery {
+        display: block;
+    }
+    .static {
+       padding: 2rem;
+    }
 }

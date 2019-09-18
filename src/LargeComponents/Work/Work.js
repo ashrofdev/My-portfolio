@@ -25,39 +25,27 @@ const Work = () => {
             <div>
             <div className="gallery">
                 <figure className="fig fig1">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/achat.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p1.png')}/>
                     <button onClick={ashchat}>visit site</button>
                 </figure>
                 <figure className="fig fig2">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/forkify.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p2.png')}/>
                     <button onClick={ashchat}>visit site</button>
                 </figure>
                 <figure className="fig fig3">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/smartbrain.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p3.png')}/>
                     <button onClick={sb}>visit site</button>
                 </figure>
                 <figure className="fig fig4">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/smataco.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p4.png')}/>
                     <button onClick={smartaco}>visit site</button>
                 </figure>
                 <figure className="fig fig5">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/budject.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p5.png')}/>
                     <button onClick={ashchat}>visit site</button>
                 </figure>
                 <figure className="fig fig5">
-                    <video loop autoPlay>
-                        <source src={require('./portfolio/lingual.mov')}/>
-                    </video>
+                    <img src={require('./portfolio/p6.png')}/>
                     <button onClick={ashchat}>visit site</button>
                 </figure>
             </div>

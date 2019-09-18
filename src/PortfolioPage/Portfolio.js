@@ -44,7 +44,30 @@ const PortfolioPage = () => {
                 <div className="static">
                     <h2>FUN & GAMES</h2>
                     <div className="gallery">
-                        
+                        <figure className="fig fig3">
+                                <img src={require('./img/p7.png')}/>
+                            <button >visit site</button>
+                        </figure>
+                        <figure className="fig fig4">
+                                <img src={require('./img/p8.png')}/>
+                            <button>visit site</button>
+                        </figure>
+                        <figure className="fig fig5">
+                                <img src={require('./img/p9.png')}/>
+                            <button >visit site</button>
+                        </figure>
+                        <figure className="fig fig5">
+                                <img src={require('./img/p10.png')}/>
+                            <button >visit site</button>
+                        </figure>
+                        <figure className="fig fig5">
+                                <img src={require('./img/p11.png')}/>
+                            <button >visit site</button>
+                        </figure>
+                        <figure className="fig fig5">
+                                <img src={require('./img/p12.png')}/>
+                            <button >visit site</button>
+                        </figure>
                     </div>
                 </div>
             </div>
