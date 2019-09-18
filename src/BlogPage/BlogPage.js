@@ -10,7 +10,7 @@ const BlogPage = () => {
             <div className="bcards">
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b1.jpg')}/>
+                        <img src={require('./blog/b1.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -26,7 +26,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b2.jpg')}/>
+                        <img src={require('./blog/b2.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -42,7 +42,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b3.jpg')}/>
+                        <img src={require('./blog/b3.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -58,7 +58,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b4.jpg')}/>
+                        <img src={require('./blog/b4.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -74,7 +74,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b5.jpg')}/>
+                        <img src={require('./blog/b5.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -90,7 +90,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b1.jpg')}/>
+                        <img src={require('./blog/b1.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -106,7 +106,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b2.jpg')}/>
+                        <img src={require('./blog/b2.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -122,7 +122,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b3.jpg')}/>
+                        <img src={require('./blog/b3.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">
@@ -138,7 +138,7 @@ const BlogPage = () => {
                 </div>
                 <div className="card">
                     <div className="bimg">
-                        <img src={require('./blog/b4.jpg')}/>
+                        <img src={require('./blog/b4.jpg')} alt=""/>
                     </div>
                     <div className="text">
                         <div className="card-detail">

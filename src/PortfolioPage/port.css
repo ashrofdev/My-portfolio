@@ -25,7 +25,10 @@
     grid-gap: 2rem;
     transition: all .5s;
 }
-.fig video {
+.fig {
+    box-shadow: 1px 1px 2px black;
+}
+.fig img {
     width: 100%;
 }
 

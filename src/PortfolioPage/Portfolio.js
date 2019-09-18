@@ -15,39 +15,27 @@ const PortfolioPage = () => {
                     <h2>STATIC PROJECTS</h2>
                     <div className="gallery">
                         <figure className="fig fig3">
-                            <video loop autoPlay>
-                                <source src={require('./letme.mov')}/>
-                            </video>
+                                <img src={require('./img/p1.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig4">
-                            <video loop autoPlay>
-                                <source src={require('./slide.mov')}/>
-                            </video>
+                                <img src={require('./img/p2.png')}/>
                             <button>visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./hunter.mov')}/>
-                            </video>
+                                <img src={require('./img/p3.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./natours.mov')}/>
-                            </video>
+                                <img src={require('./img/p4.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./nexter.mov')}/>
-                            </video>
+                                <img src={require('./img/p5.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./trillo.mov')}/>
-                            </video>
+                                <img src={require('./img/p6.png')}/>
                             <button >visit site</button>
                         </figure>
                     </div>
@@ -56,30 +44,7 @@ const PortfolioPage = () => {
                 <div className="static">
                     <h2>FUN & GAMES</h2>
                     <div className="gallery">
-                        <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./pig.mov')}/>
-                            </video>
-                            <button >visit site</button>
-                        </figure>
-                        <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./maths.mov')}/>
-                            </video>
-                            <button >visit site</button>
-                        </figure>
-                        <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./hangman.mov')}/>
-                            </video>
-                            <button >visit site</button>
-                        </figure>
-                        <figure className="fig fig5">
-                            <video loop autoPlay>
-                                <source src={require('./sweet.mov')}/>
-                            </video>
-                            <button >visit site</button>
-                        </figure>
+                        
                     </div>
                 </div>
             </div>

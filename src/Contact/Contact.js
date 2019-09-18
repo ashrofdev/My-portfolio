@@ -9,7 +9,7 @@ const ContactPage = () => {
         <div className="contact page">
             <PageHeaderr title='CONTACT'/>
             <div className="map">
-                <img src={require('../img/map.png')}/>
+                <img src={require('../img/map.png') } alt=""/>
             </div>
             <div className="info">
                 <div className="headin">

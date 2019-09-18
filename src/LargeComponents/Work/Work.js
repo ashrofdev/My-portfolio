@@ -8,6 +8,9 @@ const ashchat = () =>{
 const smartaco = () =>{
     window.location.href = "http://smartaco.herokuapp.com"
 }
+const sb = () =>{
+    window.location.href = "http://sb-ap.herokuapp.com"
+}
 
 const Work = () => {
     return (
@@ -37,7 +40,7 @@ const Work = () => {
                     <video loop autoPlay>
                         <source src={require('./portfolio/smartbrain.mov')}/>
                     </video>
-                    <button onClick={ashchat}>visit site</button>
+                    <button onClick={sb}>visit site</button>
                 </figure>
                 <figure className="fig fig4">
                     <video loop autoPlay>

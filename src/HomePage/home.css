@@ -9,7 +9,7 @@
     }
 }
 .more {
-    font-size: 2rem;
+    font-size: 1.3rem;
     grid-column: 2/10;
     color: var(--color-secondary);
     justify-self: center;
