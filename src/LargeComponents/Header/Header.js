@@ -12,7 +12,7 @@ const Header = () => {
                     <div className="text">
                         <h2>HEY! THERE</h2>
                         <h1>I AM SMITH</h1>
-                        <h2>A PROFESSIONAL <span className="">{}</span></h2>
+                        <h2>A PROFESSIONAL DEVELOPER</h2>
                         <Btn text={'HIRE ME'}/>
                     </div>
                     <div className="img">

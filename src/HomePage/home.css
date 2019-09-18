@@ -8,3 +8,17 @@
         display: block;
     }
 }
+.more {
+    font-size: 2rem;
+    grid-column: 2/10;
+    color: var(--color-secondary);
+    justify-self: center;
+    padding: 1rem 2rem;
+    border: 1px solid currentColor;
+    transition: all .5s;
+}
+.more:hover {
+    background-color: var(--color-secondary);
+    cursor: pointer;
+    color: #fff;
+}

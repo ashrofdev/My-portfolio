@@ -23,7 +23,7 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    const anime = setInterval(() => {
+    setInterval(() => {
       this.setState({person: test[1]})
       document.querySelector('.person').classList.add('person-show')
       setTimeout(() => {
@@ -72,6 +72,9 @@ class App extends Component {
     document.querySelector('.nav-btn').classList.remove('n-btn')
   }
 
+  more=()=>{
+    this.setState({page: 'portfolio'})
+  }
 
   render() {
     return (
@@ -85,7 +88,7 @@ class App extends Component {
         </div>
       { this.state.page === 'home'
           ? <div>
-              <HomePage person={this.state.person}/>
+              <HomePage person={this.state.person} more={this.more}/>
             </div>
           : (
             this.state.page === 'about'

@@ -2,40 +2,60 @@ import React from 'react'
 import './work.css'
 import { Heading } from '../../LittleComponents/LittleComponents';
 
+const ashchat = () =>{
+    window.location.href = "http://ashchat.herokuapp.com"
+}
+const smartaco = () =>{
+    window.location.href = "http://smartaco.herokuapp.com"
+}
+
 const Work = () => {
     return (
         <div className="work">
            <div>
            <Heading text={'CHECK MY LATEST WORKS'}/>
             <p>
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Sunt minus iste a quod neque fugit explicabo
-             tempore pariatur repellat asperiores?
+                Checkout this awesome list of my projects which includes
+                staitc projects dynamic projects and some fun projects.
             </p>
            </div>
             <div>
-            <ul>
-                <li>ALL</li>
-                <li>UI&UX</li>
-                <li>WEB DESIGN</li>
-                <li>APP DESIGN</li>
-                <li>SKETCH DESIGN</li>
-            </ul>
             <div className="gallery">
-                <figure className="fig1">
-                    <img alt="" src={require('./portfolio/p1.jpg')} />
+                <figure className="fig fig1">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/achat.mov')}/>
+                    </video>
+                    <button onClick={ashchat}>visit site</button>
                 </figure>
-                <figure className="fig2">
-                    <img alt="" src={require('./portfolio/p2.jpg')} />
+                <figure className="fig fig2">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/forkify.mov')}/>
+                    </video>
+                    <button onClick={ashchat}>visit site</button>
                 </figure>
-                <figure className="fig3">
-                    <img alt="" src={require('./portfolio/p3.jpg')} />
+                <figure className="fig fig3">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/smartbrain.mov')}/>
+                    </video>
+                    <button onClick={ashchat}>visit site</button>
                 </figure>
-                <figure className="fig4">
-                    <img alt="" src={require('./portfolio/p4.jpg')} />
+                <figure className="fig fig4">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/smataco.mov')}/>
+                    </video>
+                    <button onClick={smartaco}>visit site</button>
                 </figure>
-                <figure className="fig5">
-                    <img alt="" src={require('./portfolio/p5.jpg')} />
+                <figure className="fig fig5">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/budject.mov')}/>
+                    </video>
+                    <button onClick={ashchat}>visit site</button>
+                </figure>
+                <figure className="fig fig5">
+                    <video loop autoPlay>
+                        <source src={require('./portfolio/lingual.mov')}/>
+                    </video>
+                    <button onClick={ashchat}>visit site</button>
                 </figure>
             </div>
             </div>

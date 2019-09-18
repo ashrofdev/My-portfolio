@@ -19,6 +19,26 @@
 .page .body {
     grid-column: 2/10;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    transition: all .5s;
+}
+.fig video {
+    width: 100%;
+}
+
+.static {
+    margin: 5rem 0;
+}
+.static h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: var(--color-secondary);
+}
+
+
 @media only screen and (max-width: 700px) {
     .page {
         display: block;
