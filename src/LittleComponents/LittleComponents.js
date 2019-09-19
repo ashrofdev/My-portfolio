@@ -28,15 +28,12 @@ export const About = () => {
     return (
         <div className="details">
             <div className="text">
-                <p>Lore Lorem ipsum dolor sit amet consectetur adipisicing elit.o 
-                Expedita, impedit voluptatibus, optio aliquam cumque exercitationem volupta
-                 quos iusto ea numquam porro? Vitae dolore eveniet animi quos saepe
-                  mollitia cumque.</p>
-                <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi ratione porro unde architecto, minima cupiditate aliquam magnam
-                 voluptates. Debitis quasi quas nostrum vitae inventore
-                  architecto pariatur ex enim repellat aut.
+                <p>My name is Salman Ashraf, a web developer from Nigeria,
+                    and i'm currently studying computer science in the 
+                    University of Ibadan. I try my posible best to build 
+                    stunning websites out of HTML5, CSS3, 
+                    JavaScript with React.js and Node.js.
+                    I look forward to working with you.
                 </p>
                 <Btn text={'DOWNLOAD CV'} />
             </div>
