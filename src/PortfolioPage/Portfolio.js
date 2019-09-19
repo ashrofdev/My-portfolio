@@ -5,6 +5,16 @@ import Footer from '../LargeComponents/Footer/Footer';
 import { PageHeaderr } from '../LittleComponents/LittleComponents';
 
 
+const ch = () =>{
+    window.location.href = "https://ashrofdev.github.io/Challenge/."
+}
+const hu = () =>{
+    window.location.href = "https://ashrofdev.github.io/Hunter/."
+}
+const le = () =>{
+    window.location.href = "https://ashrofdev.github.io/let-me/."
+}
+
 const PortfolioPage = () => {
     return (
         <div className="page">
@@ -28,15 +38,15 @@ const PortfolioPage = () => {
                         </figure>
                         <figure className="fig fig5">
                                 <img src={require('./img/p4.png')}/>
-                            <button >visit site</button>
+                            <button onClick={le}>visit site</button>
                         </figure>
                         <figure className="fig fig5">
                                 <img src={require('./img/p5.png')}/>
-                            <button >visit site</button>
+                            <button onClick={hu}>visit site</button>
                         </figure>
                         <figure className="fig fig5">
                                 <img src={require('./img/p6.png')}/>
-                            <button >visit site</button>
+                            <button onClick={ch}>visit site</button>
                         </figure>
                     </div>
                 </div>

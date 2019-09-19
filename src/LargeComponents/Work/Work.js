@@ -12,6 +12,17 @@ const sb = () =>{
     window.location.href = "http://sb-ap.herokuapp.com"
 }
 
+const fork = () =>{
+    window.location.href = "https://ashrofdev.github.io/forkify-in-react/"
+}
+const budject = () =>{
+    window.location.href = "https://ashrofdev.github.io/Budject-App/"
+}
+
+const lr = () =>{
+    window.location.href = "https://ashrofdev.github.io/lingual-robot/"
+}
+
 const Work = () => {
     return (
         <div className="work">
@@ -26,19 +37,19 @@ const Work = () => {
             <div className="gallery">
                 <figure className="fig fig1">
                     <img src={require('./portfolio/p1.png')}/>
-                    <button onClick={ashchat}>visit site</button>
+                    <button onClick={smartaco}>visit site</button>
                 </figure>
                 <figure className="fig fig2">
                     <img src={require('./portfolio/p2.png')}/>
-                    <button onClick={ashchat}>visit site</button>
+                    <button onClick={sb}>visit site</button>
                 </figure>
                 <figure className="fig fig3">
                     <img src={require('./portfolio/p3.png')}/>
-                    <button onClick={sb}>visit site</button>
+                    <button onClick={lr}>visit site</button>
                 </figure>
                 <figure className="fig fig4">
                     <img src={require('./portfolio/p4.png')}/>
-                    <button onClick={smartaco}>visit site</button>
+                    <button onClick={fork}>visit site</button>
                 </figure>
                 <figure className="fig fig5">
                     <img src={require('./portfolio/p5.png')}/>
@@ -46,7 +57,7 @@ const Work = () => {
                 </figure>
                 <figure className="fig fig5">
                     <img src={require('./portfolio/p6.png')}/>
-                    <button onClick={ashchat}>visit site</button>
+                    <button onClick={budject}>visit site</button>
                 </figure>
             </div>
             </div>
