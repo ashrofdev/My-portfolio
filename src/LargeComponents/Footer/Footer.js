@@ -7,8 +7,7 @@ const Footer = () => {
            <div className="det">
             <img src={require('../../img/logo/logo.png')} />
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque officiis repellendus voluptas exercitationem numquam.
+                Coding websites from scratch is what i love doing best :)
             </p>
             <div className="foot">
                 <span>&copy; All RIghts Reserved By Smarto</span>

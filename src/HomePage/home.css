@@ -22,7 +22,7 @@
         display: block;
     }
     .page .more {
-        align-self: center;
+        margin-left: 2rem;
         background-color: transparent;
     }
 }

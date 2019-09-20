@@ -35,11 +35,11 @@ export const About = () => {
                     JavaScript with React.js and Node.js.
                     I look forward to working with you.
                 </p>
-                <Btn text={'DOWNLOAD CV'} />
+                <Btn text={'CONTACT ME'} />
             </div>
             <div className="abilities">
                 <div className="block">
-                    <div className="title">UI&UX DESIGN</div>
+                    <div className="title">HTML5</div>
                     <div className="bar">
                         <div className="grade" style={{width: '85%'}}>
                             <div className="percent">85%</div>
@@ -47,7 +47,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="block">
-                    <div className="title">WEB DESIGN</div>
+                    <div className="title">CSS3 & SASS</div>
                     <div className="bar">
                         <div className="grade" style={{width: '90%'}}>
                             <div className="percent">90%</div>
@@ -55,7 +55,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="block">
-                    <div className="title">APP DESIGN</div>
+                    <div className="title">JavaScript (React.js)</div>
                     <div className="bar">
                         <div className="grade" style={{width: '75%'}}>
                             <div className="percent">75%</div>
@@ -63,7 +63,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="block">
-                    <div className="title">SKETCH DESIGN</div>
+                    <div className="title">Npde.js</div>
                     <div className="bar">
                         <div className="grade" style={{width: '68%'}}>
                             <div className="percent">68%</div>

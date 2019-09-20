@@ -7,9 +7,7 @@ const NewsLetter = () => {
         <div className="news">
             <Heading text={'SUBSCRIBE NEWS LETTER'} />
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque officiis repellendus voluptas exercitationem numquam 
-                modi.
+                Enter your email below to subscribe to my news letter.
             </p>
             <form>
                 <input placeholder="Your email address..."/>
