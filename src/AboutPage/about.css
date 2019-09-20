@@ -58,6 +58,9 @@
     .offers .my-pic {
         margin: auto;
         margin-bottom: 3rem;
+        width: 100%;
     }
-   
+    .offers .detail {
+        width: 100%;
+    }
 }
