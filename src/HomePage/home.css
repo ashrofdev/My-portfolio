@@ -3,12 +3,7 @@
     grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr);
    
 }
-@media only screen and (max-width: 700px) {
-    .home, .page {
-        display: block;
-    }
-}
-.more {
+.page .more {
     font-size: 1.3rem;
     grid-column: 2/10;
     color: var(--color-secondary);
@@ -21,4 +16,13 @@
     background-color: var(--color-secondary);
     cursor: pointer;
     color: #fff;
+}
+@media only screen and (max-width: 700px) {
+    .home, .page {
+        display: block;
+    }
+    .page .more {
+        align-self: center;
+        background-color: transparent;
+    }
 }

@@ -62,6 +62,9 @@ button {
   cursor: pointer;
 }
 @media only screen and (max-width: 700px) {
+  html {
+    font-size: 52.25%;
+  }
   .topp {
     grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(1rem, 10rem)) minmax(2rem, 1fr);
   }

@@ -15,7 +15,7 @@ const HomePage = ({person, more}) => {
             <Header/>
             <AboutMe/>
             <Work/>
-                <button className="more" onClick={more}>SHOW MORE</button>
+            <button className="more" onClick={more}>SHOW MORE</button>
             <ClientView person={person}/>
             <NewsLetter/>
             <Footer/>

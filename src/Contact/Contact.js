@@ -13,10 +13,10 @@ const ContactPage = () => {
             </div>
             <div className="info">
                 <div className="headin">
-                    <span>Want To Connect</span> with Us 
-                    <div>Here is Our <span>Contact Information</span></div>
+                    <span>Want To Connect</span> with Me 
+                    <div>Fill the <span>Form</span></div>
                 </div>
-                <p>Send us a message</p>
+                <p>Send me a message</p>
                 <form>
                     <label>
                         NAME
