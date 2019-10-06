@@ -17,6 +17,24 @@
     cursor: pointer;
     color: #fff;
 }
+.con-link {
+    font-size: 1.3rem;
+    grid-column: 2/10;
+    color: var(--color-secondary);
+    padding: 1rem 2rem;
+    border: 1px solid currentColor;
+    transition: all .5s;
+    justify-self: flex-start;
+    margin-top: -10rem;
+    align-self: flex-start;
+    grid-column: 2/10;
+}
+.con-link:hover {
+    background-color: var(--color-secondary);
+    cursor: pointer;
+    color: #fff;
+}
+
 @media only screen and (max-width: 700px) {
     .home, .page {
         display: block;

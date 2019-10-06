@@ -9,11 +9,12 @@ import Footer from '../LargeComponents/Footer/Footer';
 
 
 
-const HomePage = ({person, more}) => {
+const HomePage = ({person, more, contact}) => {
     return (
         <div className="home page">
             <Header/>
             <AboutMe/>
+            <button className="con-link" onClick={contact}>CONTACT ME</button>
             <Work/>
             <button className="more" onClick={more}>SHOW MORE</button>
             <ClientView person={person}/>

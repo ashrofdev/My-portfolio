@@ -55,6 +55,18 @@ textarea {
     padding: .5rem;
     transition: all .3s;
 }
+.send {
+    padding: 1rem 3rem;
+    background-color: var(--color-secondary);
+    color: var(--white);
+    align-self: flex-end;
+    transition: all .3s;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
 @media only screen and (max-width: 700px) {
     .contact .info {
         padding: 2rem;

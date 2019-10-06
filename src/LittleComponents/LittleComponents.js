@@ -35,7 +35,6 @@ export const About = () => {
                     JavaScript with React.js and Node.js.
                     I look forward to working with you.
                 </p>
-                <Btn text={'CONTACT ME'} />
             </div>
             <div className="abilities">
                 <div className="block">

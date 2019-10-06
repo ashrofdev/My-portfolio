@@ -4,11 +4,12 @@ import { PageHeaderr, Brand } from '../LittleComponents/LittleComponents';
 import AboutMe from '../LargeComponents/About/AboutMe';
 import Footer from '../LargeComponents/Footer/Footer'
 
-const AboutPage = () => {
+const AboutPage = ({contact}) => {
     return (
         <div className="page">
             <PageHeaderr title='ABOUT ME'/>
             <AboutMe/>
+            <button className="con-link" onClick={contact}>CONTACT ME</button>
 
             <div className="offers">
                 <div className="my-pic">
@@ -30,7 +31,7 @@ const AboutPage = () => {
                              <div className="number">02.</div>
                              <div className="title">CSS3 & SASS</div>
                              <p className="text">
-                                Both CSS and SASS are both used to define the style 
+                                Both CSS and SASS are used to define the style 
                                 of the content that has already been rendered by HTML.
                              </p>
                          </div>

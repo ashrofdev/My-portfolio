@@ -1,10 +1,10 @@
 import React from 'react'
 import './contact.css'
-import { PageHeaderr } from '../LittleComponents/LittleComponents';
+import { PageHeaderr, Btn } from '../LittleComponents/LittleComponents';
 import Footer from '../LargeComponents/Footer/Footer'
 
 
-const ContactPage = () => {
+const ContactPage = ({send}) => {
     return (
         <div className="contact page">
             <PageHeaderr title='CONTACT'/>
@@ -20,16 +20,17 @@ const ContactPage = () => {
                 <form>
                     <label>
                         NAME
-                        <input />
+                        <input className='name' />
                     </label>
                     <label>
                         EMAIL ADDRESS
-                        <input type="email"/>
+                        <input className='mail' type="email"/>
                     </label>
                     <label>
                         MESSAGE
-                        <textarea/>
+                        <textarea className='msg'/>
                     </label>
+                    <div onClick={send} className="send">SEND</div>
                 </form>
             </div>
             <Footer/>

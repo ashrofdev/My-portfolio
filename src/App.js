@@ -17,7 +17,7 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'home',
+      page: 'contact',
       person: test[0],
       story: false
     }
@@ -71,10 +71,29 @@ class App extends Component {
     document.querySelector('.nav .list').classList.remove('show')
     document.querySelector('.nav-btn').classList.remove('n-btn')
   }
+  contact = () => {
+    this.setState({page: 'contact'})
+  }
 
   more=()=>{
     this.setState({page: 'portfolio'})
   }
+
+  sendMessage=()=>{
+    fetch('http://localhost:3002/contact-me', {
+      method: 'post',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        name: document.querySelector('.name').value,
+        email: document.querySelector('.mail').value,
+        message: document.querySelector('.msg').value
+      })
+    }).catch((err)=>{
+      console.log(err)
+    })
+  }
+
+
 
   render() {
     return (
@@ -88,12 +107,12 @@ class App extends Component {
         </div>
       { this.state.page === 'home'
           ? <div>
-              <HomePage person={this.state.person} more={this.more}/>
+              <HomePage person={this.state.person} more={this.more} contact={this.contact}/>
             </div>
           : (
             this.state.page === 'about'
              ?  <div>
-                  <AboutPage/>
+                  <AboutPage contact={this.contact}/>
                 </div>
              : (
             this.state.page === 'blog'
@@ -113,7 +132,7 @@ class App extends Component {
                 : (
                   this.state.page === 'contact'
                   ?  <div>
-                        <ContactPage/>
+                        <ContactPage send={this.sendMessage}/>
                       </div>
                   : {}
                   )
