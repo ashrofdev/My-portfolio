@@ -18,7 +18,7 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-      page: 'contact',
+      page: 'home',
       person: test[0],
       story: false
     }
@@ -97,10 +97,14 @@ class App extends Component {
       document.querySelector('.pop').textContent = 'SENT'
       setTimeout(() => {
         document.querySelector('.pop').classList.remove('popup')
-      }, 3000);
+      }, 2000);
     })
     .catch((err)=>{
-      document.querySelector('.pop').classList.remove('popup')
+      document.querySelector('.pop').textContent = 'FAILED'
+      document.querySelector('.pop').classList.add('fail')
+      setTimeout(() => {
+        document.querySelector('.pop').classList.remove('popup')
+      }, 2000);
       console.log(err)
     })
   }
