@@ -98,12 +98,14 @@ class App extends Component {
       setTimeout(() => {
         document.querySelector('.pop').classList.remove('popup')
       }, 2000);
+      console.log(data)
     })
     .catch((err)=>{
       document.querySelector('.pop').textContent = 'FAILED'
       document.querySelector('.pop').classList.add('fail')
       setTimeout(() => {
         document.querySelector('.pop').classList.remove('popup')
+        document.querySelector('.pop').classList.remove('fail')
       }, 2000);
       console.log(err)
     })
