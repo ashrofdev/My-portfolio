@@ -67,6 +67,26 @@ textarea {
     background-color: black;
     transform: scale(1.05);
 }
+.pop {
+    background-color: rgba(0, 0, 0, 0.521);
+    color: green;
+    padding: 1rem 4rem;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0);
+    font-size: 4rem;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
+    transition: all .5s;
+}
+.popup {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
 @media only screen and (max-width: 700px) {
     .contact .info {
         padding: 2rem;

@@ -9,6 +9,7 @@ import BlogPage from './BlogPage/BlogPage';
 import ServicesPage from './ServicesPage.js/Service';
 import ContactPage from './Contact/Contact';
 import { Person1, Person2, Person3 } from './LittleComponents/LittleComponents'
+import { async } from 'q';
 
 const test = [<Person1/>, <Person2/>, <Person3/>]
 
@@ -79,8 +80,10 @@ class App extends Component {
     this.setState({page: 'portfolio'})
   }
 
-  sendMessage=()=>{
-    fetch('http://localhost:3002/contact-me', {
+  sendMessage= ()=>{
+    document.querySelector('.pop').textContent = 'SENDING...'
+    document.querySelector('.pop').classList.add('popup')
+    fetch('https://portapi.herokuapp.com/contact-me', {
       method: 'post',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify({
@@ -88,9 +91,11 @@ class App extends Component {
         email: document.querySelector('.mail').value,
         message: document.querySelector('.msg').value
       })
-    }).catch((err)=>{
-      console.log(err)
     })
+    document.querySelector('.pop').textContent = 'SENT'
+    setTimeout(() => {
+      document.querySelector('.pop').classList.remove('popup')
+    }, 3000);
   }
 
 

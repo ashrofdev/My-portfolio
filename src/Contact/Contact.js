@@ -7,6 +7,7 @@ import Footer from '../LargeComponents/Footer/Footer'
 const ContactPage = ({send}) => {
     return (
         <div className="contact page">
+            <div className="pop"></div>
             <PageHeaderr title='CONTACT'/>
             <div className="map">
                 <img src={require('../img/map.png') } alt=""/>
