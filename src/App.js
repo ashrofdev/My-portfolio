@@ -91,11 +91,18 @@ class App extends Component {
         email: document.querySelector('.mail').value,
         message: document.querySelector('.msg').value
       })
+    }).then((data)=>{
+      return data.json()
+    }).then((data)=>{
+      document.querySelector('.pop').textContent = 'SENT'
+      setTimeout(() => {
+        document.querySelector('.pop').classList.remove('popup')
+      }, 3000);
     })
-    document.querySelector('.pop').textContent = 'SENT'
-    setTimeout(() => {
+    .catch((err)=>{
       document.querySelector('.pop').classList.remove('popup')
-    }, 3000);
+      console.log(err)
+    })
   }
 
 
