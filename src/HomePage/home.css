@@ -43,4 +43,10 @@
         margin-left: 2rem;
         background-color: transparent;
     }
+    .con-link {
+        justify-self: center;
+        align-self: center;
+        transform: translateX(100%);
+        background-color: transparent;
+    }
 }

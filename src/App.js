@@ -9,7 +9,6 @@ import BlogPage from './BlogPage/BlogPage';
 import ServicesPage from './ServicesPage.js/Service';
 import ContactPage from './Contact/Contact';
 import { Person1, Person2, Person3 } from './LittleComponents/LittleComponents'
-import { async } from 'q';
 
 const test = [<Person1/>, <Person2/>, <Person3/>]
 
@@ -49,13 +48,14 @@ class App extends Component {
     window.addEventListener('scroll', (e)=> {
       if (this.state.page==='home') {
         if(e.currentTarget.scrollY >= 350) {
-            document.querySelector('.abilities').classList.add('test')
-            document.querySelector('.grade').classList.add('grade-show')
-        } else {
-            document.querySelector('.abilities').classList.remove('test')
-        }
+          document.querySelectorAll('.grade').forEach((e)=>{
+            e.classList.add('animate')
+          })
+        } 
       } else if (this.state.page==='about') {
-        document.querySelector('.abilities').classList.add('test')
+        document.querySelectorAll('.grade').forEach((e)=>{
+          e.classList.add('animate')
+        })
       }
       if(e.currentTarget.scrollY >= 400) {
         document.querySelector('.scroller').classList.add('sshow')

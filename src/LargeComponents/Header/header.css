@@ -28,6 +28,30 @@
     margin: 0;
     color: var(--color-secondary);
 }
+
+@keyframes left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.bottom .text {
+    animation: left 1.5s ease-in;
+}
+@keyframes right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: none;
+    }
+}
+.bottom .img {
+    animation: right 1.5s ease-in;
+}
 .text h1 {
     font-weight: 700;
     font-size: 5rem;

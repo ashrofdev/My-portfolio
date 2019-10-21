@@ -3,10 +3,10 @@ import './work.css'
 import { Heading } from '../../LittleComponents/LittleComponents';
 
 const ashchat = () =>{
-    window.location.href = "http://ashchat.herokuapp.com"
+    window.location.href = "https://ashrofdev.github.io/A-chat"
 }
 const smartaco = () =>{
-    window.location.href = "http://smartaco.herokuapp.com"
+    window.location.href = "https://ashrofdev.github.io/smartACO"
 }
 const sb = () =>{
     window.location.href = "http://sb-ap.herokuapp.com"
@@ -36,27 +36,27 @@ const Work = () => {
             <div>
             <div className="gallery">
                 <figure className="fig fig1">
-                    <img src={require('./portfolio/p1.png')}/>
+                    <img alt="" src={require('./portfolio/p1.png')}/>
                     <button onClick={smartaco}>visit site</button>
                 </figure>
                 <figure className="fig fig2">
-                    <img src={require('./portfolio/p2.png')}/>
+                    <img alt="" src={require('./portfolio/p2.png')}/>
                     <button onClick={sb}>visit site</button>
                 </figure>
                 <figure className="fig fig3">
-                    <img src={require('./portfolio/p3.png')}/>
+                    <img alt="" src={require('./portfolio/p3.png')}/>
                     <button onClick={lr}>visit site</button>
                 </figure>
                 <figure className="fig fig4">
-                    <img src={require('./portfolio/p4.png')}/>
+                    <img alt="" src={require('./portfolio/p4.png')}/>
                     <button onClick={fork}>visit site</button>
                 </figure>
                 <figure className="fig fig5">
-                    <img src={require('./portfolio/p5.png')}/>
+                    <img alt="" src={require('./portfolio/p5.png')}/>
                     <button onClick={ashchat}>visit site</button>
                 </figure>
                 <figure className="fig fig5">
-                    <img src={require('./portfolio/p6.png')}/>
+                    <img alt="" src={require('./portfolio/p6.png')}/>
                     <button onClick={budject}>visit site</button>
                 </figure>
             </div>

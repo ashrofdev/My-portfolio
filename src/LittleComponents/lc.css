@@ -29,13 +29,7 @@
 .details .abilities {
     width: 50%;
     margin-left: 2rem;
-    opacity: 0;
-    transform: translateX(200%);
     transition: all 1s;
-}
-.details .test {
-    transform: none;
-    opacity: 1;
 }
 .block {
     margin-bottom: 2rem;
@@ -60,11 +54,24 @@
     }
 }
 .bar .grade {
-    animation: grade 5s;
-    width: 80%;
     background-color: var(--color-secondary);
     height: 100%;
     position: relative;
+}
+.animate {
+    animation: grade 5s;
+}
+.bar .before1 {
+    width: 85%; 
+}
+.bar .before2 {
+    width: 90%; 
+}
+.bar .before3 {
+    width: 75%; 
+}
+.bar .before4 {
+    width: 65%; 
 }
 .bar .percent {
     position: absolute;

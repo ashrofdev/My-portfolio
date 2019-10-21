@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { PageHeaderr, Btn } from '../LittleComponents/LittleComponents';
+import { PageHeaderr } from '../LittleComponents/LittleComponents';
 import Footer from '../LargeComponents/Footer/Footer'
 
 

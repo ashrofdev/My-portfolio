@@ -12,7 +12,7 @@ const ServicesPage = ({person}) => {
         <div className="services page">
             <PageHeaderr title='SERVICES'/>
             <div className="img">
-                <img src={require('../img/services/s1.jpg')} />
+                <img alt="" src={require('../img/services/s1.jpg')} />
             </div>
             <div className="features">
                 <div className="ex">

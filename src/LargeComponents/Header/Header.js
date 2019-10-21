@@ -16,7 +16,7 @@ const Header = () => {
                         <Btn text={'HIRE ME'}/>
                     </div>
                     <div className="img">
-                        <img src={require('./slider/man2.png')} />
+                        <img alt="" src={require('./slider/man2.png')} />
                     </div>
                 </div>
             </div>

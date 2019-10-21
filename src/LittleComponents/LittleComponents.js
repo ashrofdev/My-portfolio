@@ -11,7 +11,7 @@ export const Heading = ({text}) => {
 export const Logo = ({onPageChange}) => {
     return (
         <div className="logo" onClick={()=> onPageChange('home')}>
-            <img src={require('./logo/logo2.png')} />
+            <img src={require('./logo/logo2.png')} alt=""/>
         </div>
     )
 }
@@ -40,7 +40,7 @@ export const About = () => {
                 <div className="block">
                     <div className="title">HTML5</div>
                     <div className="bar">
-                        <div className="grade" style={{width: '85%'}}>
+                        <div className="grade before1">
                             <div className="percent">85%</div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export const About = () => {
                 <div className="block">
                     <div className="title">CSS3 & SASS</div>
                     <div className="bar">
-                        <div className="grade" style={{width: '90%'}}>
+                        <div className="grade before2">
                             <div className="percent">90%</div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export const About = () => {
                 <div className="block">
                     <div className="title">JavaScript (React.js)</div>
                     <div className="bar">
-                        <div className="grade" style={{width: '75%'}}>
+                        <div className="grade before3">
                             <div className="percent">75%</div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export const About = () => {
                 <div className="block">
                     <div className="title">Npde.js</div>
                     <div className="bar">
-                        <div className="grade" style={{width: '68%'}}>
+                        <div className="grade before4">
                             <div className="percent">68%</div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ export const PageHeader = () => {
         <div className="p-header">
             <div className="cont">
                 <div className="top">
-                    <img src={require('./logo/logo2.png')} />
+                    <img alt="" src={require('./logo/logo2.png')} />
                 </div>
             </div>
         </div>
@@ -100,19 +100,19 @@ export const Brand = () => {
     return (
         <div className="brand">
             <div className="b">
-                <img src={require('./brand/b1.png')}/>
+                <img alt="" src={require('./brand/b1.png')}/>
             </div>
             <div className="b">
-                <img src={require('./brand/b2.png')}/>
+                <img alt="" src={require('./brand/b2.png')}/>
             </div>
             <div className="b">
-                <img src={require('./brand/b3.png')}/>
+                <img alt="" src={require('./brand/b3.png')}/>
             </div>
             <div className="b">
-                <img src={require('./brand/b4.png')}/>
+                <img alt="" src={require('./brand/b4.png')}/>
             </div>
             <div className="b">
-                <img src={require('./brand/b5.png')}/>
+                <img alt="" src={require('./brand/b5.png')}/>
             </div>
         </div>
     )

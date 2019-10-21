@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
            <div className="det">
-            <img src={require('../../img/logo/logo.png')} />
+            <img alt="logo" src={require('../../img/logo/logo.png')} />
             <p>
                 Coding websites from scratch is what i love doing best :)
             </p>

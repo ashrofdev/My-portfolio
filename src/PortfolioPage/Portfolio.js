@@ -25,27 +25,27 @@ const PortfolioPage = () => {
                     <h2>STATIC PROJECTS</h2>
                     <div className="gallery">
                         <figure className="fig fig3">
-                                <img src={require('./img/p1.png')}/>
+                                <img alt="" src={require('./img/p1.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig4">
-                                <img src={require('./img/p2.png')}/>
+                                <img alt="" src={require('./img/p2.png')}/>
                             <button>visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p3.png')}/>
+                                <img alt="" src={require('./img/p3.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p4.png')}/>
+                                <img alt="" src={require('./img/p4.png')}/>
                             <button onClick={le}>visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p5.png')}/>
+                                <img alt="" src={require('./img/p5.png')}/>
                             <button onClick={hu}>visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p6.png')}/>
+                                <img alt="" src={require('./img/p6.png')}/>
                             <button onClick={ch}>visit site</button>
                         </figure>
                     </div>
@@ -55,27 +55,27 @@ const PortfolioPage = () => {
                     <h2>FUN & GAMES</h2>
                     <div className="gallery">
                         <figure className="fig fig3">
-                                <img src={require('./img/p7.png')}/>
+                                <img alt="" src={require('./img/p7.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig4">
-                                <img src={require('./img/p8.png')}/>
+                                <img alt="" src={require('./img/p8.png')}/>
                             <button>visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p9.png')}/>
+                                <img alt="" src={require('./img/p9.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p10.png')}/>
+                                <img alt="" src={require('./img/p10.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p11.png')}/>
+                                <img alt="" src={require('./img/p11.png')}/>
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig5">
-                                <img src={require('./img/p12.png')}/>
+                                <img alt="" src={require('./img/p12.png')}/>
                             <button >visit site</button>
                         </figure>
                     </div>
