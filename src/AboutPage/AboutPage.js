@@ -40,7 +40,7 @@ const AboutPage = ({contact}) => {
                              <div className="title">JavaScript (React)</div>
                              <p className="text">
                                 With React.js, (one of the most popular JavaScript
-                                 framework), you can build the perfect functionality
+                                 frameworks), you can build the perfect functionality
                                  for your website with high speed and accuracy.
                              </p>
                          </div>

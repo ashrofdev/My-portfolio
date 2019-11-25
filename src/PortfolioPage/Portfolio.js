@@ -29,6 +29,10 @@ const PortfolioPage = () => {
                             <button >visit site</button>
                         </figure>
                         <figure className="fig fig4">
+                                <img alt="" src={require('./img/p14.png')}/>
+                            <button>visit site</button>
+                        </figure>
+                        <figure className="fig fig4">
                                 <img alt="" src={require('./img/p2.png')}/>
                             <button>visit site</button>
                         </figure>
@@ -58,10 +62,7 @@ const PortfolioPage = () => {
                                 <img alt="" src={require('./img/p7.png')}/>
                             <button >visit site</button>
                         </figure>
-                        <figure className="fig fig4">
-                                <img alt="" src={require('./img/p8.png')}/>
-                            <button>visit site</button>
-                        </figure>
+                        
                         <figure className="fig fig5">
                                 <img alt="" src={require('./img/p9.png')}/>
                             <button >visit site</button>
@@ -76,6 +77,10 @@ const PortfolioPage = () => {
                         </figure>
                         <figure className="fig fig5">
                                 <img alt="" src={require('./img/p12.png')}/>
+                            <button >visit site</button>
+                        </figure>
+                        <figure className="fig fig3">
+                            <img alt="" src={require('./img/p8.png')}/>
                             <button >visit site</button>
                         </figure>
                     </div>

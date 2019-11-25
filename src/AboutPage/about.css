@@ -13,8 +13,8 @@
 }
 .offers .my-pic img {
     width: 100%;
-    height: auto;
-    filter: brightness(40%);
+    height: 40rem;
+    filter: brightness(90%);
 }
 .offers .detail {
     display: block;
