@@ -27,9 +27,27 @@
 }
 .fig {
     box-shadow: 1px 1px 2px black;
+    position: relative;
 }
 .fig img {
     width: 100%;
+}
+.fig a {
+    opacity: 0;
+    transition: all .5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    background-color: black;
+    border-radius: 10rem;
+}
+.fig:hover a {
+    opacity: 1;
 }
 
 .static {

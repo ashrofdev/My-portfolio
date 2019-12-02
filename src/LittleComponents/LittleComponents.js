@@ -28,12 +28,13 @@ export const About = () => {
     return (
         <div className="details">
             <div className="text">
-                <p>My name is Salman Ashraf, a web developer from Nigeria,
-                    and i'm currently studying computer science in the 
+                <p>I am Salman Ashraf, a web developer from Nigeria,
+                    and I'm currently studying computer science in the 
                     University of Ibadan. I try my posible best to build 
                     stunning websites out of HTML5, CSS3, 
                     JavaScript with React.js and Node.js.
-                    I look forward to working with you.
+                    I love solving problems and i don't
+                     quit until a problem gets solved.
                 </p>
             </div>
             <div className="abilities">
@@ -41,7 +42,7 @@ export const About = () => {
                     <div className="title">HTML5</div>
                     <div className="bar">
                         <div className="grade before1">
-                            <div className="percent">85%</div>
+                            <div className="percent">95%</div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +50,7 @@ export const About = () => {
                     <div className="title">CSS3 & SASS</div>
                     <div className="bar">
                         <div className="grade before2">
-                            <div className="percent">90%</div>
+                            <div className="percent">95%</div>
                         </div>
                     </div>
                 </div>
@@ -57,15 +58,15 @@ export const About = () => {
                     <div className="title">JavaScript (React.js)</div>
                     <div className="bar">
                         <div className="grade before3">
-                            <div className="percent">75%</div>
+                            <div className="percent">80%</div>
                         </div>
                     </div>
                 </div>
                 <div className="block">
-                    <div className="title">Npde.js</div>
+                    <div className="title">Node.js</div>
                     <div className="bar">
                         <div className="grade before4">
-                            <div className="percent">68%</div>
+                            <div className="percent">70%</div>
                         </div>
                     </div>
                 </div>

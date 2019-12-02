@@ -1,11 +1,8 @@
 .contact .map {
-    grid-column: 1/6;
+    grid-column: 1/7;
+    padding-right: 5rem;
 }
-.contact .map img {
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-}
+
 
 .contact .info {
     grid-column: 7/10;

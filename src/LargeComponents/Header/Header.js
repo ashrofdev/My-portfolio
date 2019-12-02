@@ -4,7 +4,7 @@ import { Btn } from '../../LittleComponents/LittleComponents'
 import 'font-awesome/css/font-awesome.min.css'
 
 
-const Header = () => {
+const Header = ({contact}) => {
     return (
         <div className="header">
             <div className="content">
@@ -12,11 +12,11 @@ const Header = () => {
                     <div className="text">
                         <h2>HEY! THERE</h2>
                         <h1>I AM ASHRAF</h1>
-                        <h2>A PROFESSIONAL DEVELOPER</h2>
-                        <Btn text={'HIRE ME'}/>
+                        <h2>A PROFESSIONAL WEB DEVELOPER</h2>
+                        <button className="btn" onClick={contact}>HIRE ME</button>
                     </div>
                     <div className="img">
-                        <img alt="" src={require('./slider/man2.png')} />
+                        <img alt="" src={require('./slider/man copy.png')} />
                     </div>
                 </div>
             </div>

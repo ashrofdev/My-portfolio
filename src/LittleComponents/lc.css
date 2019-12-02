@@ -62,16 +62,16 @@
     animation: grade 5s;
 }
 .bar .before1 {
-    width: 85%; 
+    width: 95%; 
 }
 .bar .before2 {
-    width: 90%; 
+    width: 95%; 
 }
 .bar .before3 {
-    width: 75%; 
+    width: 80%; 
 }
 .bar .before4 {
-    width: 65%; 
+    width: 70%; 
 }
 .bar .percent {
     position: absolute;

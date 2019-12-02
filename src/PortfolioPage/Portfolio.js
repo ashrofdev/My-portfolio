@@ -5,16 +5,6 @@ import Footer from '../LargeComponents/Footer/Footer';
 import { PageHeaderr } from '../LittleComponents/LittleComponents';
 
 
-const ch = () =>{
-    window.location.href = "https://ashrofdev.github.io/Challenge/."
-}
-const hu = () =>{
-    window.location.href = "https://ashrofdev.github.io/Hunter/."
-}
-const le = () =>{
-    window.location.href = "https://ashrofdev.github.io/let-me/."
-}
-
 const PortfolioPage = () => {
     return (
         <div className="page">
@@ -26,11 +16,11 @@ const PortfolioPage = () => {
                     <div className="gallery">
                         <figure className="fig fig3">
                                 <img alt="" src={require('./img/p1.png')}/>
-                            <button >visit site</button>
+                            <a href="https://ashrofdev.github.io/venue/">VISIT SITE</a>
                         </figure>
                         <figure className="fig fig4">
                                 <img alt="" src={require('./img/p14.png')}/>
-                            <button>visit site</button>
+                            <a target="_blank" href="https://ashrofdev.github.io/venue/">VISIT SITE</a>
                         </figure>
                         <figure className="fig fig4">
                                 <img alt="" src={require('./img/p2.png')}/>
@@ -42,15 +32,15 @@ const PortfolioPage = () => {
                         </figure>
                         <figure className="fig fig5">
                                 <img alt="" src={require('./img/p4.png')}/>
-                            <button onClick={le}>visit site</button>
+                            <a href="https://ashrofdev.github.io/let-me/.">VISIT SITE</a>
                         </figure>
                         <figure className="fig fig5">
                                 <img alt="" src={require('./img/p5.png')}/>
-                            <button onClick={hu}>visit site</button>
+                                <a href="https://ashrofdev.github.io/Hunter/.">VISIT SITE</a>
                         </figure>
                         <figure className="fig fig5">
                                 <img alt="" src={require('./img/p6.png')}/>
-                            <button onClick={ch}>visit site</button>
+                                <a href="https://ashrofdev.github.io/Challenge/.">VISIT SITE</a>
                         </figure>
                     </div>
                 </div>

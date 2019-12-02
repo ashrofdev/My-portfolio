@@ -29,8 +29,8 @@ const Work = () => {
            <div>
            <Heading text={'CHECK MY LATEST WORKS'}/>
             <p>
-                Checkout this awesome list of my projects which includes
-                staitc projects dynamic projects and some fun projects.
+                Checkout this awesome list of projects I have made for
+                companies and my personal projects.
             </p>
            </div>
             <div>
