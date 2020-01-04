@@ -92,4 +92,8 @@ textarea {
     .contact .info {
         padding: 2rem;
     }
+    .contact .map {
+        width: 100vw;
+    }
+    
 }

@@ -10,6 +10,8 @@ import ServicesPage from './ServicesPage.js/Service';
 import ContactPage from './Contact/Contact';
 import { Person1, Person2, Person3 } from './LittleComponents/LittleComponents'
 
+//  https://accounts.google.com/b/0/DisplayUnlockCaptcha
+
 const test = [<Person1/>, <Person2/>, <Person3/>]
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
     }
   }
   componentDidMount() {
+
+ 
     setInterval(() => {
       this.setState({person: test[1]})
       document.querySelector('.person').classList.add('person-show')
@@ -64,6 +68,7 @@ class App extends Component {
       }
     })
     
+    
   }
 
   onPageChange = (route) => {
@@ -80,12 +85,15 @@ class App extends Component {
     this.setState({page: 'portfolio'})
   }
 
+  //https://cryptic-cliffs-40445.herokuapp.com/send-message
+  
   sendMessage= ()=>{
     document.querySelector('.pop').textContent = 'SENDING...'
     document.querySelector('.pop').classList.add('popup')
-    fetch('https://portapi.herokuapp.com/contact-me').then((data)=>{
-      return data.json()
-    }).then((data)=>{
+
+
+    fetch('https://portapi.herokuapp.com/contact-me')
+    .then((data)=>{
       document.querySelector('.pop').textContent = 'SENT'
       setTimeout(() => {
         document.querySelector('.pop').classList.remove('popup')
@@ -101,6 +109,8 @@ class App extends Component {
       }, 2000);
       console.log(err)
     })
+
+   
   }
 
 
@@ -135,18 +145,13 @@ class App extends Component {
                     <PortfolioPage/>
                   </div>
               :  (
-                this.state.page === 'services'
-                ?  <div>
-                      <ServicesPage person={this.state.person}/>
-                    </div>
-                : (
                   this.state.page === 'contact'
                   ?  <div>
                         <ContactPage send={this.sendMessage}/>
                       </div>
                   : {}
                   )
-                )
+                
               )
             )
             )

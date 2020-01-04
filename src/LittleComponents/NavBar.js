@@ -16,7 +16,6 @@ const NavBar = ({onPageChange}) => {
                 <li className="item"><button onClick={()=> onPageChange('about')}>ABOUT</button></li>
                 <li className="item"><button onClick={()=> onPageChange('blog')}>BLOG</button></li>
                 <li className="item"><button onClick={()=> onPageChange('portfolio')}>PORTFOLIO</button></li>
-                <li className="item"><button onClick={()=> onPageChange('services')}>SERVICES</button></li>
                 <li className="item"><button onClick={()=> onPageChange('contact')}>CONTACT</button></li>
             </ul>
             <button onClick={onClick} className="nav-btn"></button>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import { PageHeaderr, Brand } from '../LittleComponents/LittleComponents';
+import { PageHeaderr } from '../LittleComponents/LittleComponents';
 import AboutMe from '../LargeComponents/About/AboutMe';
 import Footer from '../LargeComponents/Footer/Footer'
 
@@ -17,14 +17,14 @@ const AboutPage = ({contact}) => {
                 </div>
                 <div className="detail">
                     <h2 className="head">I AM AN EXPERT ON</h2>
-                    <p>Here is the list of languages i use to build websites</p>
+                    <p>Here is a list of the tools i use to build websites</p>
                      <div className="items">
                          <div className="item">
                              <div className="number">01.</div>
                              <div className="title">HTML5</div>
                              <p className="text">
                                 HTML is used to produce the content of a website.
-                                for example, rendering (texts, images, and others).
+                                Mainly for rendering texts, images, videos, and others.
                              </p>
                          </div>
                          <div className="item">
@@ -54,9 +54,6 @@ const AboutPage = ({contact}) => {
                          </div>
                      </div>
                 </div>
-            </div>
-            <div className="brand">
-                <Brand/>
             </div>
             <Footer/>
             <div className="person"></div>
