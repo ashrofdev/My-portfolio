@@ -16,7 +16,7 @@ const Header = ({contact}) => {
                         <button className="btn" onClick={contact}>HIRE ME</button>
                     </div>
                     <div className="img">
-                        <img alt="" src={require('./slider/man copy.png')} />
+                        <img alt="" src={require('./slider/me.png')} />
                     </div>
                 </div>
             </div>

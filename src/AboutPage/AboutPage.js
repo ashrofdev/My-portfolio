@@ -13,7 +13,7 @@ const AboutPage = ({contact}) => {
 
             <div className="offers">
                 <div className="my-pic">
-                    <img alt="" src={require('./about/about2 .jpeg')} />
+                    <img alt="" src={require('./about/inwork.jpeg')} />
                 </div>
                 <div className="detail">
                     <h2 className="head">I AM AN EXPERT ON</h2>

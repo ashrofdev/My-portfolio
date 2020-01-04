@@ -83,15 +83,7 @@ class App extends Component {
   sendMessage= ()=>{
     document.querySelector('.pop').textContent = 'SENDING...'
     document.querySelector('.pop').classList.add('popup')
-    fetch('https://portapi.herokuapp.com/contact-me', {
-      method: 'post',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({
-        name: document.querySelector('.name').value,
-        email: document.querySelector('.mail').value,
-        message: document.querySelector('.msg').value
-      })
-    }).then((data)=>{
+    fetch('https://portapi.herokuapp.com/contact-me').then((data)=>{
       return data.json()
     }).then((data)=>{
       document.querySelector('.pop').textContent = 'SENT'
