@@ -1,0 +1,80 @@
+.work {
+    grid-column: 2/10;
+    padding: 5rem 0;
+}
+.work p {
+    width: 45rem;
+}
+
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    transition: all .5s;
+}
+video {
+    width: 100%;
+    height: 100%;
+}
+video:hover {
+    filter: brightness(10%)
+}
+.fig {
+    transition: all .5s;
+    position: relative;
+}
+.fig:hover {
+    box-shadow: 1px 1px 5px black;
+    transform: scale(1.05);
+}
+.fig img {
+    width: 100%;
+    height: 100%;
+}
+.fig button {
+    opacity: 0;
+    padding: 1rem 2rem;
+    color: #fff;
+    border: 1px solid currentColor;
+    text-decoration: none;
+    border-radius: 10rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    background-color: transparent;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    font-size: 1.5rem;
+}
+.page button:hover {
+    cursor: pointer;
+}
+.page .fig:hover button {
+    background-color: black;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+    .work {
+        padding: 2rem;
+    }
+    .work p {
+        width: 100%;
+    }
+    .work .gallery {
+        display: block;
+    }
+    .fig {
+        margin-bottom: 1rem;
+    }
+    .fig button {
+        position: relative;
+        opacity: 1;
+        padding: .5rem 1rem;
+        background-color: black;
+        font-size: 1rem;
+        border-radius: 0;
+        width: 100%;
+    }
+}

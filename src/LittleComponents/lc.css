@@ -1,0 +1,252 @@
+.btn {
+    background-color: transparent;
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--color-secondary);
+    cursor: pointer;
+    transition: all .3s;
+}.btn:hover {
+    background-color: var(--color-secondary);
+    color: var(--white);
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0;
+    color: var(--color-secondary);
+    margin-bottom: 2rem;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.details .text {
+    width: 50%;
+}
+.details .abilities {
+    width: 50%;
+    margin-left: 2rem;
+    transition: all 1s;
+}
+.block {
+    margin-bottom: 2rem;
+}
+.block .title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.bar {
+    height: 1rem;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+@keyframes grade {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    100% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+.bar .grade {
+    background-color: var(--color-secondary);
+    height: 100%;
+    position: relative;
+}
+.animate {
+    animation: grade 5s;
+}
+.bar .before1 {
+    width: 95%; 
+}
+.bar .before2 {
+    width: 95%; 
+}
+.bar .before3 {
+    width: 80%; 
+}
+.bar .before4 {
+    width: 70%; 
+}
+.bar .percent {
+    position: absolute;
+    top: -2.5rem;
+    right: -2rem;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav .list {
+    display: flex;
+    opacity: 0;
+    transform: translateX(15%);
+    z-index: -1;
+    transition: all .5s;
+}
+.nav .show {
+    opacity: 1;
+    transform: translate(0);
+    z-index: 1;
+    color: red;
+}
+
+.nav .list .item {
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.item button {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 500;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.item button::after {
+    content: "";
+    width: 100%;
+    height: .3rem;
+    background-color: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .5s;
+    transform-origin: center;
+}
+.item button:hover::after {
+    transform: scale(1);
+}
+.nav-btn {
+    height: .4rem;
+    background-color: var(--color-secondary);
+    padding: 0;
+    width: 2.5rem;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 10000;
+    transition: all .5s;
+    border: none;
+}
+.nav-btn::before {
+    content: "";
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    top: -.7rem;
+    left: 0;
+    background-color: var(--color-secondary);
+    transition: all .5s;
+}
+.nav-btn::after {
+    content: "";
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    bottom: -.7rem;
+    left: 0;
+    background-color: var(--color-secondary);
+}
+.n-btn {
+    height: .2rem;
+    transform: rotate(405deg);
+    border: none;
+}
+.n-btn::before {
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg) translateY(0) translateX(.7rem);
+}
+.n-btn::after {
+    display: none;
+}
+
+
+/* STYLING THE SCROLLER */
+
+.scroller {
+    padding: .8rem .6rem;
+    background-color: var(--color-secondary);
+    box-shadow: 1px 1px 1rem rgb(70, 69, 69);
+    transform: rotate(-90deg) translateY(10rem);
+    color: var(--white);
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    opacity: 0;
+    transition: all .4s;
+    cursor: pointer;
+    z-index: 10000;
+}
+.scroller:hover {
+    transform: scale(1.1) rotate(-90deg);
+}
+.sshow {
+    opacity: 1;
+    transform: rotate(-810deg) translateY(0);
+}
+
+@media only screen and (max-width: 700px) {
+    .scroller {
+        bottom: 2rem;
+        right: 2rem;
+    }
+    .nav {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .n-btn {
+        position: fixed;
+    }
+    .nav .list {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        position: fixed;
+        padding: 10rem 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--color-primary);
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    .nav .list .item button {
+        font-size: 2.3rem;
+        list-style: none;
+    }
+    .nav .show {
+        opacity: 1;
+        transform: translate(0);
+        z-index: 1;
+    }
+    .details {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .details .text {
+        width: 90%;
+    }
+    .details .abilities {
+        width: 30rem;
+        height: 10rem;
+        padding: 1rem;
+        margin: 2rem;
+        margin-bottom: 7rem;
+    }
+    .abilities .title {
+        text-align-last: left;
+    }
+}

@@ -1,0 +1,46 @@
+.footer {
+    grid-column: 1/-1;
+    padding: 5rem 0;
+    background-color: var(--color-secondary);
+    text-align: center;
+    color: rgb(188, 188, 189);
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(8, minmax(8rem, 10rem)) minmax(2rem, 1fr);
+}
+.det {
+    grid-column: 2/10;
+}
+.footer p {
+    color: rgb(164, 164, 165);
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+.footer .foot {
+    margin-top: 2rem;
+    border-top: 1px solid rgb(164, 164, 165);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.foot .icons .fa {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    transition: all .5s;    
+}
+.foot .icons .fa:hover {
+    color: antiquewhite;
+    transform: rotate(360deg);
+}
+@media only screen and (max-width: 700px) {
+    .footer {
+        display: block;
+        padding: 3rem;
+    }
+    .footer p {
+        width: 100%;
+    }
+}

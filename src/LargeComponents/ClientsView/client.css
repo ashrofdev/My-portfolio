@@ -1,0 +1,67 @@
+.client {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 7rem 0;
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url(./testmonial/testmonial-slider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+@keyframes person {
+    0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.person {
+    animation: person .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: all 1s;
+}
+.person-show {
+    opacity: 1;
+    transform: none;
+}
+.client .person .img {
+    width: 10rem;
+    margin: auto;
+}
+.person img {
+    border-radius: 50%;
+}
+.person p {
+    width: 50rem;
+    padding: 2rem 0 0 0;
+    font-style: italic;
+    line-height: 2.5rem;
+    color: var(--white)
+}
+.person .name {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.person .job {
+    font-size: 1.3rem;
+    color: var(--white)
+}
+@media only screen and (max-width: 800px) {
+    .person p {
+        width: 100%;
+        padding: 2rem;
+    }
+    .person .name {
+        font-size: 1.3rem;
+    }
+}
