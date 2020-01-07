@@ -22,7 +22,7 @@
     grid-column: 2/10;
     color: var(--color-secondary);
     padding: 1rem 2rem;
-    border: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
     transition: all .5s;
     justify-self: flex-start;
     margin-top: -10rem;

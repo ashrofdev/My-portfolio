@@ -26,6 +26,7 @@ class App extends Component {
   }
   componentDidMount() {
 
+
  
     setInterval(() => {
       this.setState({person: test[1]})
@@ -68,7 +69,7 @@ class App extends Component {
       }
     })
     
-    
+   
   }
 
   onPageChange = (route) => {
@@ -79,6 +80,10 @@ class App extends Component {
   }
   contact = () => {
     this.setState({page: 'contact'})
+  }
+
+  aboutPage = () => {
+    this.setState({page: 'about'})
   }
 
   more=()=>{
@@ -127,7 +132,7 @@ class App extends Component {
         </div>
       { this.state.page === 'home'
           ? <div>
-              <HomePage person={this.state.person} more={this.more} contact={this.contact}/>
+              <HomePage person={this.state.person} more={this.more} contact={this.contact} aboutPage={this.aboutPage}/>
             </div>
           : (
             this.state.page === 'about'
